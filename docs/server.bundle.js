@@ -82,7 +82,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 354);
+/******/ 	return __webpack_require__(__webpack_require__.s = 351);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -8306,7 +8306,7 @@ Prism.languages.wasm = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({"title":"김화영 문서","tagline":"문서작성을 위한 docs page 입니다.","url":"https://your-docusaurus-test-site.com","baseUrl":"/docs/","onBrokenLinks":"throw","onBrokenMarkdownLinks":"warn","favicon":"https://avatars1.githubusercontent.com/u/50225173?s=460&v=4","organizationName":"EleutheriusKim","projectName":"docusaurus","themeConfig":{"hideableSidebar":true,"navbar":{"title":"김화영 문서","hideOnScroll":true,"logo":{"alt":"My Site Logo","src":"https://avatars1.githubusercontent.com/u/50225173?s=460&v=4"},"items":[{"type":"doc","docId":"intro","position":"left","label":"Tutorial","activeSidebarClassName":"navbar__link--active"},{"to":"/blog","label":"Blog","position":"left"},{"href":"https://github.com/EleutheriusKim","label":"GitHub","position":"right"}]},"footer":{"style":"dark","links":[{"title":"Docs","items":[{"label":"Tutorial","to":"/docs/docs/intro"}]},{"title":"More","items":[{"label":"Blog","to":"/blog"},{"label":"Instagram","href":"https://www.instagram.com/eleutherius.kim/"},{"html":"<a href=\"https://www.instagram.com/eleutherius.kim/\" class=\"footer__link-item\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Deploys by Netlify\">\n              <img src=\"https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008788/noticon/bqjhb6xvljt9viccy6lh.png\" height='20px' alt=\"Deploys by Netlify\" />Instagram</a>\n              "}]}],"logo":{"alt":"Facebook Open Source Logo","src":"https://avatars1.githubusercontent.com/u/50225173?s=460&v=4","href":"https://github.com/EleutheriusKim"},"copyright":"Copyright © 2021 Hwayoung kim, Inc. Built with Docusaurus."},"colorMode":{"defaultMode":"light","disableSwitch":false,"respectPrefersColorScheme":false,"switchConfig":{"darkIcon":"🌜","darkIconStyle":{},"lightIcon":"🌞","lightIconStyle":{}}},"docs":{"versionPersistence":"localStorage"},"metadatas":[],"prism":{"additionalLanguages":[]}},"presets":[["@docusaurus/preset-classic",{"docs":{"sidebarPath":"C:\\dev\\private\\docusaurus\\sidebars.js"},"blog":{"showReadingTime":true},"theme":{"customCss":"C:\\dev\\private\\docusaurus\\src\\css\\custom.css"}}]],"baseUrlIssueBanner":true,"i18n":{"defaultLocale":"en","locales":["en"],"localeConfigs":{}},"onDuplicateRoutes":"warn","customFields":{},"plugins":[],"themes":[],"titleDelimiter":"|","noIndex":false});
+/* harmony default export */ __webpack_exports__["default"] = ({"title":"김화영 문서","tagline":"개인 포트폴리오를 위한 페이지입니다.","url":"https://your-docusaurus-test-site.com","baseUrl":"/docs/","onBrokenLinks":"throw","onBrokenMarkdownLinks":"warn","favicon":"https://avatars1.githubusercontent.com/u/50225173?s=460&v=4","organizationName":"EleutheriusKim","projectName":"docusaurus","themeConfig":{"hideableSidebar":true,"navbar":{"title":"김화영 문서","hideOnScroll":true,"logo":{"alt":"My Site Logo","src":"https://avatars1.githubusercontent.com/u/50225173?s=460&v=4"},"items":[{"type":"doc","docId":"intro","position":"left","label":"Tutorial","activeSidebarClassName":"navbar__link--active"},{"to":"/blog","label":"Blog","position":"left"},{"href":"https://github.com/EleutheriusKim","label":"GitHub","position":"right"}]},"footer":{"style":"dark","links":[{"title":"Docs","items":[{"label":"Docs","to":"/docs/docs/intro"}]},{"title":"More","items":[{"label":"Blog","to":"/blog"},{"html":"<a href=\"https://www.instagram.com/eleutherius.kim/\" class=\"footer__link-item\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Deploys by Netlify\">\n              <img src=\"https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008788/noticon/bqjhb6xvljt9viccy6lh.png\" height='20px' alt=\"Deploys by Netlify\" />Instagram</a>\n              "}]}],"logo":{"alt":"Facebook Open Source Logo","src":"https://avatars1.githubusercontent.com/u/50225173?s=460&v=4","href":"https://github.com/EleutheriusKim"},"copyright":"Copyright © 2021 Hwayoung kim, Inc. Built with Docusaurus."},"colorMode":{"defaultMode":"light","disableSwitch":false,"respectPrefersColorScheme":false,"switchConfig":{"darkIcon":"🌜","darkIconStyle":{},"lightIcon":"🌞","lightIconStyle":{}}},"docs":{"versionPersistence":"localStorage"},"metadatas":[],"prism":{"additionalLanguages":[]}},"presets":[["@docusaurus/preset-classic",{"docs":{"sidebarPath":"C:\\dev\\private\\docusaurus\\sidebars.js"},"blog":{"showReadingTime":true},"theme":{"customCss":"C:\\dev\\private\\docusaurus\\src\\css\\custom.css"}}]],"baseUrlIssueBanner":true,"i18n":{"defaultLocale":"en","locales":["en"],"localeConfigs":{}},"onDuplicateRoutes":"warn","customFields":{},"plugins":[],"themes":[],"titleDelimiter":"|","noIndex":false});
 
 /***/ }),
 /* 40 */
@@ -14317,7 +14317,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./": 340
+	"./": 337
 };
 
 
@@ -14837,12 +14837,12 @@ module.exports = parsePart;
 
 "use strict";
 
-const ansiStyles = __webpack_require__(345);
-const {stdout: stdoutColor, stderr: stderrColor} = __webpack_require__(349);
+const ansiStyles = __webpack_require__(342);
+const {stdout: stdoutColor, stderr: stderrColor} = __webpack_require__(346);
 const {
 	stringReplaceAll,
 	stringEncaseCRLFWithFirstIndex
-} = __webpack_require__(352);
+} = __webpack_require__(349);
 
 const {isArray} = Array;
 
@@ -15051,7 +15051,7 @@ const chalkTag = (chalk, ...strings) => {
 	}
 
 	if (template === undefined) {
-		template = __webpack_require__(353);
+		template = __webpack_require__(350);
 	}
 
 	return template(chalk, parts.join(''));
@@ -17293,7 +17293,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-const frontMatter={slug:'welcome',title:'Welcome',author:'Yangshun Tay',author_title:'Front End Engineer @ Facebook',author_url:'https://github.com/yangshun',author_image_url:'https://avatars0.githubusercontent.com/u/1315101?s=400&v=4',tags:['facebook','hello','docusaurus']};const metadata={"permalink":"/docs/blog/welcome","source":"@site/blog/2019-05-30-welcome.md","title":"Welcome","description":"Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!","date":"2019-05-30T00:00:00.000Z","formattedDate":"May 30, 2019","tags":[{"label":"facebook","permalink":"/docs/blog/tags/facebook"},{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"nextItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Blog features are powered by the blog plugin. Simply add files to the `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"p"},`blog`),` directory. It supports tags as well!`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Delete the whole directory if you don't want the blog features. As simple as that!`));};MDXContent.isMDXComponent=true;
+const frontMatter={slug:'welcome',title:'Welcome',author:'hwayoung kim',author_title:'MThink기술연구소 서버팀',author_url:'https://github.com/EleutheriusKim',author_image_url:'https://avatars1.githubusercontent.com/u/50225173?s=460&v=4',tags:['facebook','hello','docusaurus']};const metadata={"permalink":"/docs/blog/welcome","source":"@site/blog/2019-05-30-welcome.md","title":"Welcome","description":"Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!","date":"2019-05-30T00:00:00.000Z","formattedDate":"May 30, 2019","tags":[{"label":"facebook","permalink":"/docs/blog/tags/facebook"},{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"nextItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Blog features are powered by the blog plugin. Simply add files to the `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"p"},`blog`),` directory. It supports tags as well!`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Delete the whole directory if you don't want the blog features. As simple as that!`));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 143 */
@@ -17309,7 +17309,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-const frontMatter={slug:'hello-world',title:'Hello',author:'Endilie Yacop Sucipto',author_title:'Maintainer of Docusaurus',author_url:'https://github.com/endiliey',author_image_url:'https://avatars1.githubusercontent.com/u/17883920?s=460&v=4',tags:['hello','docusaurus']};const metadata={"permalink":"/docs/blog/hello-world","source":"@site/blog/2019-05-29-hello-world.md","title":"Hello","description":"Welcome to this blog. This blog is created with Docusaurus 2 alpha.","date":"2019-05-29T00:00:00.000Z","formattedDate":"May 29, 2019","tags":[{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.12,"truncated":true,"prevItem":{"title":"Welcome","permalink":"/docs/blog/welcome"},"nextItem":{"title":"📦 Hola 🚗","permalink":"/docs/blog/hola"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Welcome to this blog. This blog is created with `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("a",{parentName:"p","href":"https://docusaurus.io/"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("strong",{parentName:"a"},`Docusaurus 2 alpha`)),`.`));};MDXContent.isMDXComponent=true;
+const frontMatter={slug:'hello-world',title:'Hello',author:'hwayoung kim',author_title:'MThink기술연구소 서버팀',author_url:'https://github.com/EleutheriusKim',author_image_url:'https://avatars1.githubusercontent.com/u/50225173?s=460&v=4',tags:['hello','docusaurus']};const metadata={"permalink":"/docs/blog/hello-world","source":"@site/blog/2019-05-29-hello-world.md","title":"Hello","description":"Welcome to this blog. This blog is created with Docusaurus 2 alpha.","date":"2019-05-29T00:00:00.000Z","formattedDate":"May 29, 2019","tags":[{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.12,"truncated":true,"prevItem":{"title":"Welcome","permalink":"/docs/blog/welcome"},"nextItem":{"title":"📦 Hola 🚗","permalink":"/docs/blog/hola"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Welcome to this blog. This blog is created with `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("a",{parentName:"p","href":"https://docusaurus.io/"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("strong",{parentName:"a"},`Docusaurus 2 alpha`)),`.`));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 144 */
@@ -17464,7 +17464,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-const frontMatter={slug:'hola',title:'📦 Hola 🚗',author:'Gao Wei',author_title:'Docusaurus Core Team',author_url:'https://github.com/wgao19',author_image_url:'https://avatars1.githubusercontent.com/u/2055384?v=4',tags:['hola','docusaurus']};const metadata={"permalink":"/docs/blog/hola","source":"@site/blog/2019-05-28-hola.md","title":"📦 Hola 🚗","description":"test","date":"2019-05-28T00:00:00.000Z","formattedDate":"May 28, 2019","tags":[{"label":"hola","permalink":"/docs/blog/tags/hola"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"prevItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[{value:'test',id:'test',children:[{value:'test2',id:'test2',children:[]},{value:'test3',id:'test3',children:[]}]},{value:'testttt',id:'testttt',children:[]}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"test"},`test`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test2"},`test2`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdasda`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test3"},`test3`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdfs`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"testttt"},`testttt`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`wawe`));};MDXContent.isMDXComponent=true;
+const frontMatter={slug:'hola',title:'📦 Hola 🚗',author:'hwayoung kim',author_title:'MThink기술연구소 서버팀',author_url:'https://github.com/EleutheriusKim',author_image_url:'https://avatars1.githubusercontent.com/u/50225173?s=460&v=4',tags:['hola','docusaurus']};const metadata={"permalink":"/docs/blog/hola","source":"@site/blog/2019-05-28-hola.md","title":"📦 Hola 🚗","description":"test","date":"2019-05-28T00:00:00.000Z","formattedDate":"May 28, 2019","tags":[{"label":"hola","permalink":"/docs/blog/tags/hola"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"prevItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[{value:'test',id:'test',children:[{value:'test2',id:'test2',children:[]},{value:'test3',id:'test3',children:[]}]},{value:'testttt',id:'testttt',children:[]}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"test"},`test`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test2"},`test2`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdasda`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test3"},`test3`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdfs`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"testttt"},`testttt`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`wawe`));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 154 */
@@ -17492,7 +17492,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-const frontMatter={slug:'welcome',title:'Welcome',author:'Yangshun Tay',author_title:'Front End Engineer @ Facebook',author_url:'https://github.com/yangshun',author_image_url:'https://avatars0.githubusercontent.com/u/1315101?s=400&v=4',tags:['facebook','hello','docusaurus']};const metadata={"permalink":"/docs/blog/welcome","source":"@site/blog/2019-05-30-welcome.md","title":"Welcome","description":"Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!","date":"2019-05-30T00:00:00.000Z","formattedDate":"May 30, 2019","tags":[{"label":"facebook","permalink":"/docs/blog/tags/facebook"},{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"nextItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Blog features are powered by the blog plugin. Simply add files to the `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"p"},`blog`),` directory. It supports tags as well!`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Delete the whole directory if you don't want the blog features. As simple as that!`));};MDXContent.isMDXComponent=true;
+const frontMatter={slug:'welcome',title:'Welcome',author:'hwayoung kim',author_title:'MThink기술연구소 서버팀',author_url:'https://github.com/EleutheriusKim',author_image_url:'https://avatars1.githubusercontent.com/u/50225173?s=460&v=4',tags:['facebook','hello','docusaurus']};const metadata={"permalink":"/docs/blog/welcome","source":"@site/blog/2019-05-30-welcome.md","title":"Welcome","description":"Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!","date":"2019-05-30T00:00:00.000Z","formattedDate":"May 30, 2019","tags":[{"label":"facebook","permalink":"/docs/blog/tags/facebook"},{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"nextItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Blog features are powered by the blog plugin. Simply add files to the `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"p"},`blog`),` directory. It supports tags as well!`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Delete the whole directory if you don't want the blog features. As simple as that!`));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 157 */
@@ -17514,7 +17514,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-const frontMatter={slug:'hola',title:'📦 Hola 🚗',author:'Gao Wei',author_title:'Docusaurus Core Team',author_url:'https://github.com/wgao19',author_image_url:'https://avatars1.githubusercontent.com/u/2055384?v=4',tags:['hola','docusaurus']};const metadata={"permalink":"/docs/blog/hola","source":"@site/blog/2019-05-28-hola.md","title":"📦 Hola 🚗","description":"test","date":"2019-05-28T00:00:00.000Z","formattedDate":"May 28, 2019","tags":[{"label":"hola","permalink":"/docs/blog/tags/hola"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"prevItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[{value:'test',id:'test',children:[{value:'test2',id:'test2',children:[]},{value:'test3',id:'test3',children:[]}]},{value:'testttt',id:'testttt',children:[]}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"test"},`test`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test2"},`test2`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdasda`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test3"},`test3`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdfs`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"testttt"},`testttt`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`wawe`));};MDXContent.isMDXComponent=true;
+const frontMatter={slug:'hola',title:'📦 Hola 🚗',author:'hwayoung kim',author_title:'MThink기술연구소 서버팀',author_url:'https://github.com/EleutheriusKim',author_image_url:'https://avatars1.githubusercontent.com/u/50225173?s=460&v=4',tags:['hola','docusaurus']};const metadata={"permalink":"/docs/blog/hola","source":"@site/blog/2019-05-28-hola.md","title":"📦 Hola 🚗","description":"test","date":"2019-05-28T00:00:00.000Z","formattedDate":"May 28, 2019","tags":[{"label":"hola","permalink":"/docs/blog/tags/hola"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.175,"truncated":false,"prevItem":{"title":"Hello","permalink":"/docs/blog/hello-world"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[{value:'test',id:'test',children:[{value:'test2',id:'test2',children:[]},{value:'test3',id:'test3',children:[]}]},{value:'testttt',id:'testttt',children:[]}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"test"},`test`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test2"},`test2`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdasda`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h3",{"id":"test3"},`test3`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`asdfs`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"testttt"},`testttt`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`wawe`));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 159 */
@@ -17530,7 +17530,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-const frontMatter={slug:'hello-world',title:'Hello',author:'Endilie Yacop Sucipto',author_title:'Maintainer of Docusaurus',author_url:'https://github.com/endiliey',author_image_url:'https://avatars1.githubusercontent.com/u/17883920?s=460&v=4',tags:['hello','docusaurus']};const metadata={"permalink":"/docs/blog/hello-world","source":"@site/blog/2019-05-29-hello-world.md","title":"Hello","description":"Welcome to this blog. This blog is created with Docusaurus 2 alpha.","date":"2019-05-29T00:00:00.000Z","formattedDate":"May 29, 2019","tags":[{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.12,"truncated":true,"prevItem":{"title":"Welcome","permalink":"/docs/blog/welcome"},"nextItem":{"title":"📦 Hola 🚗","permalink":"/docs/blog/hola"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Welcome to this blog. This blog is created with `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("a",{parentName:"p","href":"https://docusaurus.io/"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("strong",{parentName:"a"},`Docusaurus 2 alpha`)),`.`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`This is a test post.`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`A whole bunch of other information.`));};MDXContent.isMDXComponent=true;
+const frontMatter={slug:'hello-world',title:'Hello',author:'hwayoung kim',author_title:'MThink기술연구소 서버팀',author_url:'https://github.com/EleutheriusKim',author_image_url:'https://avatars1.githubusercontent.com/u/50225173?s=460&v=4',tags:['hello','docusaurus']};const metadata={"permalink":"/docs/blog/hello-world","source":"@site/blog/2019-05-29-hello-world.md","title":"Hello","description":"Welcome to this blog. This blog is created with Docusaurus 2 alpha.","date":"2019-05-29T00:00:00.000Z","formattedDate":"May 29, 2019","tags":[{"label":"hello","permalink":"/docs/blog/tags/hello"},{"label":"docusaurus","permalink":"/docs/blog/tags/docusaurus"}],"readingTime":0.12,"truncated":true,"prevItem":{"title":"Welcome","permalink":"/docs/blog/welcome"},"nextItem":{"title":"📦 Hola 🚗","permalink":"/docs/blog/hola"}};/* @jsxRuntime classic */ /* @jsx mdx */const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])(MDXLayout,Object(C_dev_private_docusaurus_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Welcome to this blog. This blog is created with `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("a",{parentName:"p","href":"https://docusaurus.io/"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("strong",{parentName:"a"},`Docusaurus 2 alpha`)),`.`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`This is a test post.`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`A whole bunch of other information.`));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 160 */
@@ -17560,7 +17560,7 @@ const frontMatter={sidebar_position:1};const metadata={"unversionedId":"tutorial
     },
   },
 };
-`)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`The docs version dropdown appears in your navbar:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("img",{alt:"Docs Version Dropdown",src:__webpack_require__(337).default})),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"update-an-existing-version"},`Update an existing version`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`It is possible to edit versioned docs in their respective folder:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("ul",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("li",{parentName:"ul"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`versioned_docs/version-1.0/hello.md`),` updates `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`http://localhost:3000/docs/hello`)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("li",{parentName:"ul"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`docs/hello.md`),` updates `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`http://localhost:3000/docs/next/hello`))));};MDXContent.isMDXComponent=true;
+`)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`The docs version dropdown appears in your navbar:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("img",{alt:"Docs Version Dropdown",src:__webpack_require__(334).default})),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"update-an-existing-version"},`Update an existing version`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`It is possible to edit versioned docs in their respective folder:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("ul",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("li",{parentName:"ul"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`versioned_docs/version-1.0/hello.md`),` updates `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`http://localhost:3000/docs/hello`)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("li",{parentName:"ul"},Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`docs/hello.md`),` updates `,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("inlineCode",{parentName:"li"},`http://localhost:3000/docs/next/hello`))));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 161 */
@@ -17599,7 +17599,7 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
     },
   },
 };
-`)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`The locale dropdown now appears in your navbar:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("img",{alt:"Locale Dropdown",src:__webpack_require__(338).default})),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"build-your-localized-site"},`Build your localized site`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Build your site for a specific locale:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("pre",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("code",{parentName:"pre","className":"language-bash"},`npm run build -- --locale fr
+`)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`The locale dropdown now appears in your navbar:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("img",{alt:"Locale Dropdown",src:__webpack_require__(335).default})),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("h2",{"id":"build-your-localized-site"},`Build your localized site`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Build your site for a specific locale:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("pre",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("code",{parentName:"pre","className":"language-bash"},`npm run build -- --locale fr
 `)),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("p",null,`Or build your site to include all the locales at once:`),Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("pre",null,Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__[/* mdx */ "b"])("code",{parentName:"pre","className":"language-bash"},`npm run build
 `)));};MDXContent.isMDXComponent=true;
 
@@ -17633,7 +17633,7 @@ const frontMatter={sidebar_position:5};const metadata={"unversionedId":"tutorial
 
 /* MIT license */
 /* eslint-disable no-mixed-operators */
-const cssKeywords = __webpack_require__(347);
+const cssKeywords = __webpack_require__(344);
 
 // NOTE: conversions should only return primitive values (i.e. arrays, or
 //       values that give correct `typeof` results).
@@ -18732,7 +18732,8 @@ var esm_extends = __webpack_require__(2);
 // Exports
 /* harmony default export */ var HomepageFeatures_module = ({
 	"features": "features_pzNA",
-	"featureSvg": "featureSvg_3LcT"
+	"featureSvg": "featureSvg_3LcT",
+	"featureImg": "featureImg_2645"
 });
 
 // CONCATENATED MODULE: ./src/components/HomepageFeatures.js
@@ -18741,7 +18742,10 @@ var esm_extends = __webpack_require__(2);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */const FeatureList=[{title:'Easy to Use',Svg:__webpack_require__(334).default,description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.")},{title:'Focus on What Matters',Svg:__webpack_require__(335).default,description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the ",/*#__PURE__*/react_default.a.createElement("code",null,"docs")," directory.")},{title:'Powered by React',Svg:__webpack_require__(336).default,description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.")}];function Feature({Svg,title,description}){return/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])('col col--4')},/*#__PURE__*/react_default.a.createElement("div",{className:"text--center"},/*#__PURE__*/react_default.a.createElement(Svg,{className:HomepageFeatures_module.featureSvg,alt:title})),/*#__PURE__*/react_default.a.createElement("div",{className:"text--center padding-horiz--md"},/*#__PURE__*/react_default.a.createElement("h3",null,title),/*#__PURE__*/react_default.a.createElement("p",null,description)));}function HomepageFeatures(){return/*#__PURE__*/react_default.a.createElement("section",{className:HomepageFeatures_module.features},/*#__PURE__*/react_default.a.createElement("div",{className:"container"},/*#__PURE__*/react_default.a.createElement("div",{className:"row"},FeatureList.map((props,idx)=>/*#__PURE__*/react_default.a.createElement(Feature,Object(esm_extends["a" /* default */])({key:idx},props))))));}
+ */const FeatureList=[{title:"Easy to Use",link:"https://naver.com",// Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+img:"../../static/img/undraw_docusaurus_mountain.svg",description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.")},{title:"Focus on What Matters",// Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+img:"../../static/img/undraw_docusaurus_tree.svg",description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the ",/*#__PURE__*/react_default.a.createElement("code",null,"docs")," directory.")},{title:"Powered by React",// Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+img:"../../static/img/undraw_docusaurus_react.svg",description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.")}];function Feature({img,title,description,link}){return/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])("col col--4")},/*#__PURE__*/react_default.a.createElement("a",{href:link},/*#__PURE__*/react_default.a.createElement("div",{className:"text--center"},/*#__PURE__*/react_default.a.createElement("img",{className:HomepageFeatures_module.featureImg,alt:title,src:img}))),/*#__PURE__*/react_default.a.createElement("div",{className:"text--center padding-horiz--md"},/*#__PURE__*/react_default.a.createElement("h3",null,title),/*#__PURE__*/react_default.a.createElement("p",null,description)));}function HomepageFeatures(){return/*#__PURE__*/react_default.a.createElement("section",{className:HomepageFeatures_module.features},/*#__PURE__*/react_default.a.createElement("div",{className:"container"},/*#__PURE__*/react_default.a.createElement("div",{className:"row"},FeatureList.map((props,idx)=>/*#__PURE__*/react_default.a.createElement(Feature,Object(esm_extends["a" /* default */])({key:idx},props))))));}
 // CONCATENATED MODULE: ./src/pages/index.js
 function HomepageHeader(){const{siteConfig}=Object(useDocusaurusContext["default"])();return/*#__PURE__*/react_default.a.createElement("header",{className:Object(clsx_m["a" /* default */])('hero hero--primary',index_module.heroBanner)},/*#__PURE__*/react_default.a.createElement("div",{className:"container"},/*#__PURE__*/react_default.a.createElement("h1",{className:"hero__title"},siteConfig.title),/*#__PURE__*/react_default.a.createElement("p",{className:"hero__subtitle"},siteConfig.tagline)));}function Home(){const{siteConfig}=Object(useDocusaurusContext["default"])();return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{title:`${siteConfig.title}`,description:"Description will go into a meta tag in <head />"},/*#__PURE__*/react_default.a.createElement(HomepageHeader,null),/*#__PURE__*/react_default.a.createElement("main",null,/*#__PURE__*/react_default.a.createElement(HomepageFeatures,null)));}
 
@@ -55051,892 +55055,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _g;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-function SvgUndrawDocusaurusMountain(_ref) {
-  var title = _ref.title,
-      titleId = _ref.titleId,
-      props = _objectWithoutProperties(_ref, ["title", "titleId"]);
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 1088,
-    height: 687.962,
-    viewBox: "0 0 1088 687.962",
-    "aria-labelledby": titleId
-  }, props), title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
-    id: titleId
-  }, title) : null, _g || (_g = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 11"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 83",
-    d: "M961.81 454.442c-5.27 45.15-16.22 81.4-31.25 110.31-20 38.52-54.21 54.04-84.77 70.28a193.275 193.275 0 01-27.46 11.94c-55.61 19.3-117.85 14.18-166.74 3.99a657.282 657.282 0 00-104.09-13.16q-14.97-.675-29.97-.67c-15.42.02-293.07 5.29-360.67-131.57-16.69-33.76-28.13-75-32.24-125.27-11.63-142.12 52.29-235.46 134.74-296.47 155.97-115.41 369.76-110.57 523.43 7.88 102.36 78.9 198.2 198.31 179.02 362.74z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 84",
-    d: "M930.56 564.752c-20 38.52-47.21 64.04-77.77 80.28a193.272 193.272 0 01-27.46 11.94c-55.61 19.3-117.85 14.18-166.74 3.99a657.3 657.3 0 00-104.09-13.16q-14.97-.675-29.97-.67-23.13.03-46.25 1.72c-100.17 7.36-253.82-6.43-321.42-143.29L326 177.962l62.95 161.619 20.09 51.59 55.37-75.98L493 275.962l130.2 149.27 36.8-81.27 254.78 207.919 14.21 11.59z",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 85",
-    d: "M302 282.962l26-57 36 83-31-60z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 86",
-    d: "M554.5 647.802q-14.97-.675-29.97-.67l-115.49-255.96z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 87",
-    d: "M464.411 315.191L493 292.962l130 150-132-128z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 88",
-    d: "M852.79 645.032a193.265 193.265 0 01-27.46 11.94L623.2 425.232z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 11",
-    cx: 3,
-    cy: 3,
-    r: 3,
-    transform: "translate(479 98.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 12",
-    cx: 3,
-    cy: 3,
-    r: 3,
-    transform: "translate(396 201.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 13",
-    cx: 2,
-    cy: 2,
-    r: 2,
-    transform: "translate(600 220.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 14",
-    cx: 2,
-    cy: 2,
-    r: 2,
-    transform: "translate(180 265.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 15",
-    cx: 2,
-    cy: 2,
-    r: 2,
-    transform: "translate(612 96.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 16",
-    cx: 2,
-    cy: 2,
-    r: 2,
-    transform: "translate(736 192.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 17",
-    cx: 2,
-    cy: 2,
-    r: 2,
-    transform: "translate(858 344.962)",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 89",
-    d: "M306 121.222h-2.76v-2.76h-1.48v2.76H299v1.478h2.76v2.759h1.48V122.7H306z",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 90",
-    d: "M848 424.222h-2.76v-2.76h-1.48v2.76H841v1.478h2.76v2.759h1.48V425.7H848z",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 91",
-    d: "M1088 613.962c0 16.569-243.557 74-544 74s-544-57.431-544-74 243.557 14 544 14 544-30.568 544-14z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 92",
-    d: "M1088 613.962c0 16.569-243.557 74-544 74s-544-57.431-544-74 243.557 14 544 14 544-30.568 544-14z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ellipse", {
-    "data-name": "Ellipse 18",
-    cx: 544,
-    cy: 30,
-    rx: 544,
-    ry: 30,
-    transform: "translate(0 583.962)",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 93",
-    d: "M568 571.962c0 33.137-14.775 24-33 24s-33 9.137-33-24 33-96 33-96 33 62.863 33 96z",
-    fill: "#ff6584"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 94",
-    d: "M550 584.641c0 15.062-6.716 10.909-15 10.909s-15 4.153-15-10.909 15-43.636 15-43.636 15 28.576 15 43.636z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 97",
-    width: 92,
-    height: 18,
-    rx: 9,
-    transform: "translate(489 604.962)",
-    fill: "#2f2e41"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 98",
-    width: 92,
-    height: 18,
-    rx: 9,
-    transform: "translate(489 586.962)",
-    fill: "#2f2e41"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 95",
-    d: "M137 490.528c0 55.343 34.719 100.126 77.626 100.126",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 96",
-    d: "M214.626 590.654c0-55.965 38.745-101.251 86.626-101.251",
-    fill: "#6c63ff"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 97",
-    d: "M165.125 495.545c0 52.57 22.14 95.109 49.5 95.109",
-    fill: "#6c63ff"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 98",
-    d: "M214.626 590.654c0-71.511 44.783-129.377 100.126-129.377",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 99",
-    d: "M198.3 591.36s11.009-.339 14.326-2.7 16.934-5.183 17.757-1.395 16.544 18.844 4.115 18.945-28.879-1.936-32.19-3.953-4.008-10.897-4.008-10.897z",
-    fill: "#a8a8a8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 100",
-    d: "M234.716 604.89c-12.429.1-28.879-1.936-32.19-3.953-2.522-1.536-3.527-7.048-3.863-9.591l-.368.014s.7 8.879 4.009 10.9 19.761 4.053 32.19 3.953c3.588-.029 4.827-1.305 4.759-3.2-.498 1.142-1.867 1.855-4.537 1.877z",
-    opacity: 0.2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 101",
-    d: "M721.429 527.062c0 38.029 23.857 68.8 53.341 68.8",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 102",
-    d: "M774.769 595.863c0-38.456 26.623-69.575 59.525-69.575",
-    fill: "#6c63ff"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 103",
-    d: "M740.755 530.509c0 36.124 15.213 65.354 34.014 65.354",
-    fill: "#6c63ff"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 104",
-    d: "M774.769 595.863c0-49.139 30.773-88.9 68.8-88.9",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 105",
-    d: "M763.548 596.348s7.565-.233 9.844-1.856 11.636-3.562 12.2-.958 11.368 12.949 2.828 13.018-19.844-1.33-22.119-2.716-2.753-7.488-2.753-7.488z",
-    fill: "#a8a8a8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 106",
-    d: "M788.574 605.645c-8.54.069-19.844-1.33-22.119-2.716-1.733-1.056-2.423-4.843-2.654-6.59l-.253.01s.479 6.1 2.755 7.487 13.579 2.785 22.119 2.716c2.465-.02 3.317-.9 3.27-2.2-.343.788-1.283 1.278-3.118 1.293z",
-    opacity: 0.2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 107",
-    d: "M893.813 618.699s11.36-1.729 14.5-4.591 16.89-7.488 18.217-3.667 19.494 17.447 6.633 19.107-30.153 1.609-33.835-.065-5.515-10.784-5.515-10.784z",
-    fill: "#a8a8a8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 108",
-    d: "M933.228 628.154c-12.86 1.659-30.153 1.609-33.835-.065-2.8-1.275-4.535-6.858-5.2-9.45l-.379.061s1.833 9.109 5.516 10.783 20.975 1.725 33.835.065c3.712-.479 4.836-1.956 4.529-3.906-.375 1.246-1.703 2.156-4.466 2.512z",
-    opacity: 0.2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 109",
-    d: "M614.26 617.881s9.587-1.459 12.237-3.875 14.255-6.32 15.374-3.095 16.452 14.725 5.6 16.125-25.448 1.358-28.555-.055-4.656-9.1-4.656-9.1z",
-    fill: "#a8a8a8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 110",
-    d: "M647.524 625.856c-10.853 1.4-25.448 1.358-28.555-.055-2.367-1.076-3.827-5.788-4.39-7.976l-.32.051s1.547 7.687 4.655 9.1 17.7 1.456 28.555.055c3.133-.4 4.081-1.651 3.822-3.3-.314 1.057-1.435 1.825-3.767 2.125z",
-    opacity: 0.2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 111",
-    d: "M122.389 613.09s7.463-1.136 9.527-3.016 11.1-4.92 11.969-2.409 12.808 11.463 4.358 12.553-19.811 1.057-22.23-.043-3.624-7.085-3.624-7.085z",
-    fill: "#a8a8a8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 112",
-    d: "M148.285 619.302c-8.449 1.09-19.811 1.057-22.23-.043-1.842-.838-2.979-4.506-3.417-6.209l-.249.04s1.2 5.984 3.624 7.085 13.781 1.133 22.23.043c2.439-.315 3.177-1.285 2.976-2.566-.246.818-1.119 1.416-2.934 1.65z",
-    opacity: 0.2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 113",
-    d: "M383.7 601.318c0 30.22-42.124 20.873-93.7 20.873s-93.074 9.347-93.074-20.873 42.118-36.793 93.694-36.793 93.08 6.573 93.08 36.793z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 114",
-    d: "M383.7 593.881c0 30.22-42.124 20.873-93.7 20.873s-93.074 9.347-93.074-20.873 42.114-36.8 93.69-36.8 93.084 6.576 93.084 36.8z",
-    fill: "#3f3d56"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 40",
-    d: "M360.175 475.732h91.791v37.153h-91.791z",
-    fill: "#fff",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 41",
-    d: "M277.126 597.026a21.828 21.828 0 01-18.908-10.927 21.829 21.829 0 0018.908 32.782h21.855v-21.855z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 42",
-    d: "M375.451 481.607l76.514-4.782v-10.928a21.854 21.854 0 00-21.855-21.855h-98.347l-2.732-4.735a3.154 3.154 0 00-5.464 0l-2.732 4.732-2.732-4.732a3.154 3.154 0 00-5.464 0l-2.732 4.732-2.731-4.732a3.154 3.154 0 00-5.464 0l-2.732 4.735h-.071l-4.526-4.525a3.153 3.153 0 00-5.276 1.414l-1.5 5.577-5.674-1.521a3.154 3.154 0 00-3.863 3.864l1.52 5.679-5.575 1.494a3.155 3.155 0 00-1.416 5.278l4.526 4.526v.07l-4.735 2.731a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.732a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.731a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.727a3.154 3.154 0 000 5.464l4.735 2.736-4.735 2.732a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.732a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.731a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.732a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.731a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.731a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.735a3.154 3.154 0 000 5.464l4.732 2.732-4.732 2.728a3.154 3.154 0 000 5.464l4.732 2.732a21.854 21.854 0 0021.858 21.855h131.13a21.854 21.854 0 0021.855-21.855v-87.42l-76.514-4.782a11.632 11.632 0 010-23.219",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 43",
-    d: "M408.255 618.882h32.782v-43.71h-32.782z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 44",
-    d: "M462.893 591.563a5.438 5.438 0 00-.7.07c-.042-.164-.081-.329-.127-.493a5.457 5.457 0 10-5.4-9.372q-.181-.185-.366-.367a5.454 5.454 0 10-9.384-5.4c-.162-.046-.325-.084-.486-.126a5.467 5.467 0 10-10.788 0c-.162.042-.325.08-.486.126a5.457 5.457 0 10-9.384 5.4 21.843 21.843 0 1036.421 21.02 5.452 5.452 0 10.7-10.858",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 45",
-    d: "M419.183 553.317h32.782v-21.855h-32.782z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 46",
-    d: "M462.893 545.121a2.732 2.732 0 100-5.464 2.811 2.811 0 00-.349.035c-.022-.082-.04-.164-.063-.246a2.733 2.733 0 00-1.052-5.253 2.7 2.7 0 00-1.648.566q-.09-.093-.184-.184a2.7 2.7 0 00.553-1.633 2.732 2.732 0 00-5.245-1.07 10.928 10.928 0 100 21.031 2.732 2.732 0 005.245-1.07 2.7 2.7 0 00-.553-1.633q.093-.09.184-.184a2.7 2.7 0 001.648.566 2.732 2.732 0 001.052-5.253c.023-.081.042-.164.063-.246a2.814 2.814 0 00.349.035",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 47",
-    d: "M320.836 479.556a2.732 2.732 0 01-2.732-2.732 8.2 8.2 0 00-16.391 0 2.732 2.732 0 01-5.464 0 13.66 13.66 0 0127.319 0 2.732 2.732 0 01-2.732 2.732",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 48",
-    d: "M364.546 618.881h65.565a21.854 21.854 0 0021.855-21.855v-76.492h-65.565a21.854 21.854 0 00-21.855 21.855z",
-    fill: "#ffff50",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 49",
-    d: "M435.596 554.41h-54.681a1.093 1.093 0 110-2.185h54.681a1.093 1.093 0 010 2.185m0 21.855h-54.681a1.093 1.093 0 110-2.186h54.681a1.093 1.093 0 010 2.186m0 21.855h-54.681a1.093 1.093 0 110-2.185h54.681a1.093 1.093 0 010 2.185m0-54.434h-54.681a1.093 1.093 0 110-2.185h54.681a1.093 1.093 0 010 2.185m0 21.652h-54.681a1.093 1.093 0 110-2.186h54.681a1.093 1.093 0 010 2.186m0 21.855h-54.681a1.093 1.093 0 110-2.186h54.681a1.093 1.093 0 010 2.186m16.369-100.959c-.013 0-.024-.007-.037-.005-3.377.115-4.974 3.492-6.384 6.472-1.471 3.114-2.608 5.139-4.473 5.078-2.064-.074-3.244-2.406-4.494-4.874-1.436-2.835-3.075-6.049-6.516-5.929-3.329.114-4.932 3.053-6.346 5.646-1.5 2.762-2.529 4.442-4.5 4.364-2.106-.076-3.225-1.972-4.52-4.167-1.444-2.443-3.112-5.191-6.487-5.1-3.272.113-4.879 2.606-6.3 4.808-1.5 2.328-2.552 3.746-4.551 3.662-2.156-.076-3.27-1.65-4.558-3.472-1.447-2.047-3.077-4.363-6.442-4.251-3.2.109-4.807 2.153-6.224 3.954-1.346 1.709-2.4 3.062-4.621 2.977a1.094 1.094 0 00-.079 2.186c3.3.11 4.967-1.967 6.417-3.81 1.286-1.635 2.4-3.045 4.582-3.12 2.1-.09 3.091 1.218 4.584 3.327 1.417 2 3.026 4.277 6.263 4.394 3.391.114 5.022-2.42 6.467-4.663 1.292-2 2.406-3.734 4.535-3.807 1.959-.073 3.026 1.475 4.529 4.022 1.417 2.4 3.023 5.121 6.324 5.241 3.415.118 5.064-2.863 6.5-5.5 1.245-2.282 2.419-4.437 4.5-4.509 1.959-.046 2.981 1.743 4.492 4.732 1.412 2.79 3.013 5.95 6.365 6.071h.185c3.348 0 4.937-3.36 6.343-6.331 1.245-2.634 2.423-5.114 4.444-5.216z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 50",
-    d: "M342.691 618.882h43.71v-43.71h-43.71z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 8",
-    transform: "rotate(-14.98 2188.845 -1120.376)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 3",
-    width: 92.361,
-    height: 36.462,
-    rx: 2,
-    fill: "#d8d8d8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 2",
-    transform: "translate(1.531 23.03)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 4",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(16.797)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 5",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(23.12)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 6",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(29.444)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 7",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(35.768)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 8",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(42.091)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 9",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(48.415)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 10",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(54.739)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 11",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(61.063)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 12",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(67.386)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 51",
-    d: "M1.093 0h13.425a1.093 1.093 0 011.093 1.093v3.15a1.093 1.093 0 01-1.093 1.093H1.093A1.093 1.093 0 010 4.243v-3.15A1.093 1.093 0 011.093 0zM75 0h13.426a1.093 1.093 0 011.093 1.093v3.15a1.093 1.093 0 01-1.093 1.093H75a1.093 1.093 0 01-1.093-1.093v-3.15A1.093 1.093 0 0175 0z",
-    fillRule: "evenodd"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 3",
-    transform: "translate(1.531 10.261)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 52",
-    d: "M1.093 0h5.125A1.093 1.093 0 017.31 1.093v3.149a1.093 1.093 0 01-1.092 1.093H1.093A1.093 1.093 0 010 4.242V1.093A1.093 1.093 0 011.093 0z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 13",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(8.299)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 14",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(14.623)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 15",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(20.947)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 16",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(27.271)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 17",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(33.594)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 18",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(39.918)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 19",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(46.242)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 20",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(52.565)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 21",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(58.888)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 22",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(65.212)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 23",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(71.536)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 24",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(77.859)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 25",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(84.183)"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 4",
-    transform: "rotate(180 45.525 4.773)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 53",
-    d: "M1.093 0h5.126a1.093 1.093 0 011.093 1.093v3.15a1.093 1.093 0 01-1.093 1.093H1.093A1.093 1.093 0 010 4.243v-3.15A1.093 1.093 0 011.093 0z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 26",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(8.299)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 27",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(14.623)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 28",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(20.947)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 29",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(27.271)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 30",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(33.594)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 31",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(39.918)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 32",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(46.242)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 33",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(52.565)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 34",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(58.889)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 35",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(65.213)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 36",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(71.537)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 37",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(77.86)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 38",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(84.183)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 39",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(8.299)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 40",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(14.623)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 41",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(20.947)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 42",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(27.271)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 43",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(33.594)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 44",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(39.918)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 45",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(46.242)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 46",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(52.565)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 47",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(58.889)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 48",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(65.213)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 49",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(71.537)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 50",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(77.86)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 51",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(84.183)"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 6",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 54",
-    d: "M2.624 16.584h7.3a1.093 1.093 0 011.092 1.093v3.15a1.093 1.093 0 01-1.093 1.093h-7.3a1.093 1.093 0 01-1.092-1.093v-3.149a1.093 1.093 0 011.093-1.094z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 5",
-    transform: "translate(12.202 16.584)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 52",
-    width: 5.336,
-    height: 5.336,
-    rx: 1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 53",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(6.324)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 54",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(12.647)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 55",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(18.971)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 56",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(25.295)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 57",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(31.619)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 58",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(37.942)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 59",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(44.265)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 60",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(50.589)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 61",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(56.912)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 62",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(63.236)"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 55",
-    d: "M83.053 16.584h6.906a1.093 1.093 0 011.091 1.093v3.15a1.093 1.093 0 01-1.091 1.093h-6.907a1.093 1.093 0 01-1.093-1.093v-3.149a1.093 1.093 0 011.093-1.094z",
-    fillRule: "evenodd"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 7",
-    transform: "translate(1.531 29.627)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 63",
-    width: 5.336,
-    height: 5.336,
-    rx: 1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 64",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(6.324)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 65",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(12.647)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 66",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(18.971)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 56",
-    d: "M26.387 0h30.422a1.093 1.093 0 011.093 1.093v3.151a1.093 1.093 0 01-1.093 1.093H26.387a1.093 1.093 0 01-1.093-1.093V1.093A1.093 1.093 0 0126.387 0zm33.594 0h3.942a1.093 1.093 0 011.093 1.093v3.151a1.093 1.093 0 01-1.093 1.093h-3.942a1.093 1.093 0 01-1.093-1.093V1.093A1.093 1.093 0 0159.981 0z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 67",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(66.003)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 68",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(72.327)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 69",
-    width: 5.336,
-    height: 5.336,
-    rx: 1,
-    transform: "translate(84.183)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 57",
-    d: "M78.254 2.273v-1.18A1.093 1.093 0 0179.347 0h3.15a1.093 1.093 0 011.093 1.093v1.18z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 58",
-    d: "M83.591 3.063v1.18a1.093 1.093 0 01-1.093 1.093h-3.15a1.093 1.093 0 01-1.093-1.093v-1.18z"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 70",
-    width: 88.927,
-    height: 2.371,
-    rx: 1.085,
-    transform: "translate(1.925 1.17)",
-    fill: "#4a4a4a"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 71",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(4.1 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 72",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(10.923 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 73",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(16.173 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 74",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(21.421 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 75",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(26.671 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 76",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(33.232 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 77",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(38.48 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 78",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(43.73 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 79",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(48.978 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 80",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(55.54 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 81",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(60.788 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 82",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(66.038 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 83",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(72.599 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 84",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(77.847 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 85",
-    width: 4.986,
-    height: 1.581,
-    rx: 0.723,
-    transform: "translate(83.097 1.566)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 59",
-    d: "M408.256 591.563a5.439 5.439 0 00-.7.07c-.042-.164-.081-.329-.127-.493a5.457 5.457 0 10-5.4-9.372q-.181-.185-.366-.367a5.454 5.454 0 10-9.384-5.4c-.162-.046-.325-.084-.486-.126a5.467 5.467 0 10-10.788 0c-.162.042-.325.08-.486.126a5.457 5.457 0 10-9.384 5.4 21.843 21.843 0 1036.421 21.02 5.452 5.452 0 10.7-10.858",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 60",
-    d: "M342.691 553.317h43.71v-21.855h-43.71z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 61",
-    d: "M397.328 545.121a2.732 2.732 0 100-5.464 2.811 2.811 0 00-.349.035c-.022-.082-.04-.164-.063-.246a2.733 2.733 0 00-1.052-5.253 2.7 2.7 0 00-1.648.566q-.09-.093-.184-.184a2.7 2.7 0 00.553-1.633 2.732 2.732 0 00-5.245-1.07 10.928 10.928 0 100 21.031 2.732 2.732 0 005.245-1.07 2.7 2.7 0 00-.553-1.633q.093-.09.184-.184a2.7 2.7 0 001.648.566 2.732 2.732 0 001.052-5.253c.023-.081.042-.164.063-.246a2.811 2.811 0 00.349.035",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 62",
-    d: "M408.256 464.531a2.967 2.967 0 01-.535-.055 2.754 2.754 0 01-.514-.153 2.838 2.838 0 01-.471-.251 4.139 4.139 0 01-.415-.339 3.2 3.2 0 01-.338-.415 2.7 2.7 0 01-.459-1.517 2.968 2.968 0 01.055-.535 3.152 3.152 0 01.152-.514 2.874 2.874 0 01.252-.47 2.633 2.633 0 01.753-.754 2.837 2.837 0 01.471-.251 2.753 2.753 0 01.514-.153 2.527 2.527 0 011.071 0 2.654 2.654 0 01.983.4 4.139 4.139 0 01.415.339 4.019 4.019 0 01.339.415 2.786 2.786 0 01.251.47 2.864 2.864 0 01.208 1.049 2.77 2.77 0 01-.8 1.934 4.139 4.139 0 01-.415.339 2.722 2.722 0 01-1.519.459m21.855-1.366a2.789 2.789 0 01-1.935-.8 4.162 4.162 0 01-.338-.415 2.7 2.7 0 01-.459-1.519 2.789 2.789 0 01.8-1.934 4.139 4.139 0 01.415-.339 2.838 2.838 0 01.471-.251 2.752 2.752 0 01.514-.153 2.527 2.527 0 011.071 0 2.654 2.654 0 01.983.4 4.139 4.139 0 01.415.339 2.79 2.79 0 01.8 1.934 3.069 3.069 0 01-.055.535 2.779 2.779 0 01-.153.514 3.885 3.885 0 01-.251.47 4.02 4.02 0 01-.339.415 4.138 4.138 0 01-.415.339 2.722 2.722 0 01-1.519.459",
-    fillRule: "evenodd"
-  }))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (SvgUndrawDocusaurusMountain);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/docsVersionDropdown-dda80f009a926fb2dd92bab8faa6c4d8.png");
 
 /***/ }),
 /* 335 */
@@ -55944,1084 +55063,20 @@ function SvgUndrawDocusaurusMountain(_ref) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _circle, _ellipse, _ellipse2, _path, _path2, _path3, _circle2, _circle3, _circle4, _rect, _rect2, _rect3, _rect4, _rect5, _rect6, _rect7, _path4, _ellipse3, _ellipse4, _path5, _path6, _path7, _path8, _path9, _path10, _path11, _path12, _path13, _path14, _path15, _path16, _path17, _path18, _path19, _path20, _path21;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-function SvgUndrawDocusaurusTree(_ref) {
-  var title = _ref.title,
-      titleId = _ref.titleId,
-      props = _objectWithoutProperties(_ref, ["title", "titleId"]);
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
-    "data-name": "Layer 1",
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 1129,
-    height: 663,
-    viewBox: "0 0 1129 663",
-    "aria-labelledby": titleId
-  }, props), title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
-    id: titleId
-  }, title) : null, _circle || (_circle = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    cx: 321,
-    cy: 321,
-    r: 321,
-    fill: "#f2f2f2"
-  })), _ellipse || (_ellipse = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ellipse", {
-    cx: 559,
-    cy: 635.5,
-    rx: 514,
-    ry: 27.5,
-    fill: "#3f3d56"
-  })), _ellipse2 || (_ellipse2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ellipse", {
-    cx: 558,
-    cy: 627,
-    rx: 460,
-    ry: 22,
-    opacity: 0.2
-  })), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    fill: "#3f3d56",
-    d: "M131 152.5h840v50H131z"
-  })), _path2 || (_path2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M131 608.83a21.67 21.67 0 0021.67 21.67h796.66A21.67 21.67 0 00971 608.83V177.5H131zM949.33 117.5H152.67A21.67 21.67 0 00131 139.17v38.33h840v-38.33a21.67 21.67 0 00-21.67-21.67z",
-    fill: "#3f3d56"
-  })), _path3 || (_path3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M949.33 117.5H152.67A21.67 21.67 0 00131 139.17v38.33h840v-38.33a21.67 21.67 0 00-21.67-21.67z",
-    opacity: 0.2
-  })), _circle2 || (_circle2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    cx: 181,
-    cy: 147.5,
-    r: 13,
-    fill: "#3f3d56"
-  })), _circle3 || (_circle3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    cx: 217,
-    cy: 147.5,
-    r: 13,
-    fill: "#3f3d56"
-  })), _circle4 || (_circle4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    cx: 253,
-    cy: 147.5,
-    r: 13,
-    fill: "#3f3d56"
-  })), _rect || (_rect = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 168,
-    y: 213.5,
-    width: 337,
-    height: 386,
-    rx: 5.335,
-    fill: "#606060"
-  })), _rect2 || (_rect2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 603,
-    y: 272.5,
-    width: 284,
-    height: 22,
-    rx: 5.476,
-    fill: "#2e8555"
-  })), _rect3 || (_rect3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 537,
-    y: 352.5,
-    width: 416,
-    height: 15,
-    rx: 5.476,
-    fill: "#2e8555"
-  })), _rect4 || (_rect4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 537,
-    y: 396.5,
-    width: 416,
-    height: 15,
-    rx: 5.476,
-    fill: "#2e8555"
-  })), _rect5 || (_rect5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 537,
-    y: 440.5,
-    width: 416,
-    height: 15,
-    rx: 5.476,
-    fill: "#2e8555"
-  })), _rect6 || (_rect6 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 537,
-    y: 484.5,
-    width: 416,
-    height: 15,
-    rx: 5.476,
-    fill: "#2e8555"
-  })), _rect7 || (_rect7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    x: 865,
-    y: 552.5,
-    width: 88,
-    height: 26,
-    rx: 7.028,
-    fill: "#3ecc5f"
-  })), _path4 || (_path4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M1053.103 506.116a30.114 30.114 0 003.983-15.266c0-13.797-8.544-24.98-19.083-24.98s-19.082 11.183-19.082 24.98a30.114 30.114 0 003.983 15.266 31.248 31.248 0 000 30.532 31.248 31.248 0 000 30.532 31.248 31.248 0 000 30.532 30.114 30.114 0 00-3.983 15.266c0 13.797 8.543 24.981 19.082 24.981s19.083-11.184 19.083-24.98a30.114 30.114 0 00-3.983-15.267 31.248 31.248 0 000-30.532 31.248 31.248 0 000-30.532 31.248 31.248 0 000-30.532z",
-    fill: "#3f3d56"
-  })), _ellipse3 || (_ellipse3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ellipse", {
-    cx: 1038.003,
-    cy: 460.318,
-    rx: 19.083,
-    ry: 24.981,
-    fill: "#3f3d56"
-  })), _ellipse4 || (_ellipse4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ellipse", {
-    cx: 1038.003,
-    cy: 429.786,
-    rx: 19.083,
-    ry: 24.981,
-    fill: "#3f3d56"
-  })), _path5 || (_path5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M1109.439 220.845a91.61 91.61 0 007.106-10.461l-50.14-8.235 54.228.403a91.566 91.566 0 001.746-72.426l-72.755 37.742 67.097-49.321A91.413 91.413 0 10965.75 220.845a91.458 91.458 0 00-10.425 16.67l65.087 33.814-69.4-23.292a91.46 91.46 0 0014.738 85.837 91.406 91.406 0 10143.689 0 91.418 91.418 0 000-113.03z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path6 || (_path6 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M946.188 277.36a91.013 91.013 0 0019.562 56.514 91.406 91.406 0 10143.689 0c12.25-15.553-163.25-66.774-163.25-56.515z",
-    opacity: 0.1
-  })), _path7 || (_path7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M330.12 342.936h111.474v45.12H330.12z",
-    fill: "#fff",
-    fillRule: "evenodd"
-  })), _path8 || (_path8 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M229.263 490.241a26.51 26.51 0 01-22.963-13.27 26.51 26.51 0 0022.963 39.812h26.541V490.24z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path9 || (_path9 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M348.672 350.07l92.922-5.807v-13.27a26.54 26.54 0 00-26.541-26.542H295.616l-3.318-5.746a3.83 3.83 0 00-6.635 0l-3.318 5.746-3.317-5.746a3.83 3.83 0 00-6.636 0l-3.317 5.746-3.318-5.746a3.83 3.83 0 00-6.635 0l-3.318 5.746c-.03 0-.056.004-.086.004l-5.497-5.495a3.83 3.83 0 00-6.407 1.717l-1.817 6.773-6.89-1.847a3.83 3.83 0 00-4.691 4.693l1.844 6.891-6.77 1.814a3.832 3.832 0 00-1.72 6.41l5.497 5.497c0 .028-.004.055-.004.085l-5.747 3.317a3.83 3.83 0 000 6.636l5.747 3.317-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318-5.747 3.317a3.83 3.83 0 000 6.636l5.747 3.317-5.747 3.318a3.83 3.83 0 000 6.636l5.747 3.317-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318-5.747 3.317a3.83 3.83 0 000 6.636l5.747 3.317-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318-5.747 3.317a3.83 3.83 0 000 6.636l5.747 3.317-5.747 3.318a3.83 3.83 0 000 6.635l5.747 3.318a26.54 26.54 0 0026.541 26.542h159.249a26.54 26.54 0 0026.541-26.542V384.075l-92.922-5.807a14.126 14.126 0 010-28.197",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path10 || (_path10 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M388.511 516.783h39.812V463.7h-39.812z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path11 || (_path11 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M454.865 483.606a6.602 6.602 0 00-.848.085c-.05-.2-.099-.4-.154-.599a6.627 6.627 0 10-6.557-11.382q-.22-.225-.445-.446a6.624 6.624 0 10-11.397-6.564c-.196-.055-.394-.102-.59-.152a6.64 6.64 0 10-13.101 0c-.197.05-.394.097-.59.152a6.628 6.628 0 10-11.398 6.564 26.528 26.528 0 1044.232 25.528 6.621 6.621 0 10.848-13.186",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  })), _path12 || (_path12 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M401.782 437.158h39.812v-26.541h-39.812z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path13 || (_path13 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M454.865 427.205a3.318 3.318 0 000-6.635 3.411 3.411 0 00-.424.042c-.026-.1-.049-.199-.077-.298a3.319 3.319 0 00-1.278-6.38 3.282 3.282 0 00-2 .688q-.11-.113-.224-.223a3.282 3.282 0 00.672-1.983 3.318 3.318 0 00-6.37-1.299 13.27 13.27 0 100 25.541 3.318 3.318 0 006.37-1.3 3.282 3.282 0 00-.672-1.982q.114-.11.223-.223a3.282 3.282 0 002.001.688 3.318 3.318 0 001.278-6.38c.028-.098.05-.199.077-.298a3.413 3.413 0 00.424.042",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  })), _path14 || (_path14 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M282.345 347.581a3.318 3.318 0 01-3.317-3.318 9.953 9.953 0 10-19.906 0 3.318 3.318 0 11-6.636 0 16.588 16.588 0 1133.177 0 3.318 3.318 0 01-3.318 3.318",
-    fillRule: "evenodd"
-  })), _path15 || (_path15 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M335.428 516.783h79.625a26.54 26.54 0 0026.541-26.542v-92.895H361.97a26.54 26.54 0 00-26.542 26.542z",
-    fill: "#ffff50",
-    fillRule: "evenodd"
-  })), _path16 || (_path16 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M421.714 438.485h-66.406a1.327 1.327 0 010-2.654h66.406a1.327 1.327 0 010 2.654m0 26.542h-66.406a1.327 1.327 0 110-2.654h66.406a1.327 1.327 0 010 2.654m0 26.541h-66.406a1.327 1.327 0 110-2.654h66.406a1.327 1.327 0 010 2.654m0-66.106h-66.406a1.327 1.327 0 010-2.655h66.406a1.327 1.327 0 010 2.655m0 26.294h-66.406a1.327 1.327 0 010-2.654h66.406a1.327 1.327 0 010 2.654m0 26.542h-66.406a1.327 1.327 0 010-2.655h66.406a1.327 1.327 0 010 2.655m19.88-122.607c-.016 0-.03-.008-.045-.007-4.1.14-6.04 4.241-7.753 7.86-1.786 3.783-3.168 6.242-5.432 6.167-2.506-.09-3.94-2.922-5.458-5.918-1.744-3.443-3.734-7.347-7.913-7.201-4.042.138-5.99 3.708-7.706 6.857-1.828 3.355-3.071 5.394-5.47 5.3-2.557-.093-3.916-2.395-5.488-5.06-1.753-2.967-3.78-6.304-7.878-6.19-3.973.137-5.925 3.166-7.648 5.84-1.822 2.826-3.098 4.549-5.527 4.447-2.618-.093-3.97-2.004-5.535-4.216-1.757-2.486-3.737-5.3-7.823-5.163-3.886.133-5.838 2.615-7.56 4.802-1.634 2.075-2.91 3.718-5.611 3.615a1.328 1.328 0 10-.096 2.654c4.004.134 6.032-2.389 7.793-4.628 1.562-1.985 2.91-3.698 5.564-3.789 2.556-.108 3.754 1.48 5.567 4.041 1.721 2.434 3.675 5.195 7.606 5.337 4.118.138 6.099-2.94 7.853-5.663 1.569-2.434 2.923-4.535 5.508-4.624 2.38-.088 3.674 1.792 5.5 4.885 1.722 2.916 3.671 6.22 7.68 6.365 4.147.143 6.15-3.477 7.895-6.682 1.511-2.77 2.938-5.388 5.466-5.475 2.38-.056 3.62 2.116 5.456 5.746 1.714 3.388 3.658 7.226 7.73 7.373l.224.004c4.066 0 5.996-4.08 7.704-7.689 1.511-3.198 2.942-6.21 5.397-6.334z",
-    fillRule: "evenodd"
-  })), _path17 || (_path17 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M308.887 516.783h53.083V463.7h-53.083z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path18 || (_path18 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M388.511 483.606a6.602 6.602 0 00-.848.085c-.05-.2-.098-.4-.154-.599a6.627 6.627 0 10-6.557-11.382q-.22-.225-.444-.446a6.624 6.624 0 10-11.397-6.564c-.197-.055-.394-.102-.59-.152a6.64 6.64 0 10-13.102 0c-.196.05-.394.097-.59.152a6.628 6.628 0 10-11.397 6.564 26.528 26.528 0 1044.231 25.528 6.621 6.621 0 10.848-13.186",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  })), _path19 || (_path19 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M308.887 437.158h53.083v-26.541h-53.083z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  })), _path20 || (_path20 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M375.24 427.205a3.318 3.318 0 100-6.635 3.411 3.411 0 00-.423.042c-.026-.1-.05-.199-.077-.298a3.319 3.319 0 00-1.278-6.38 3.282 3.282 0 00-2.001.688q-.11-.113-.223-.223a3.282 3.282 0 00.671-1.983 3.318 3.318 0 00-6.37-1.299 13.27 13.27 0 100 25.541 3.318 3.318 0 006.37-1.3 3.282 3.282 0 00-.671-1.982q.113-.11.223-.223a3.282 3.282 0 002.001.688 3.318 3.318 0 001.278-6.38c.028-.098.05-.199.077-.298a3.413 3.413 0 00.423.042",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  })), _path21 || (_path21 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M388.511 329.334a3.603 3.603 0 01-.65-.067 3.344 3.344 0 01-.624-.185 3.447 3.447 0 01-.572-.306 5.027 5.027 0 01-.504-.411 3.887 3.887 0 01-.41-.504 3.275 3.275 0 01-.558-1.845 3.602 3.602 0 01.067-.65 3.826 3.826 0 01.184-.624 3.489 3.489 0 01.307-.57 3.197 3.197 0 01.914-.916 3.447 3.447 0 01.572-.305 3.344 3.344 0 01.624-.186 3.07 3.07 0 011.3 0 3.223 3.223 0 011.195.49 5.028 5.028 0 01.504.412 4.88 4.88 0 01.411.504 3.382 3.382 0 01.306.571 3.478 3.478 0 01.252 1.274 3.364 3.364 0 01-.969 2.349 5.027 5.027 0 01-.504.411 3.306 3.306 0 01-1.845.558m26.542-1.66a3.388 3.388 0 01-2.35-.968 5.042 5.042 0 01-.41-.504 3.275 3.275 0 01-.558-1.845 3.387 3.387 0 01.967-2.349 5.026 5.026 0 01.505-.411 3.447 3.447 0 01.572-.305 3.343 3.343 0 01.623-.186 3.07 3.07 0 011.3 0 3.224 3.224 0 011.195.49 5.026 5.026 0 01.504.412 3.388 3.388 0 01.97 2.35 3.726 3.726 0 01-.067.65 3.374 3.374 0 01-.186.623 4.715 4.715 0 01-.305.57 4.88 4.88 0 01-.412.505 5.026 5.026 0 01-.504.412 3.305 3.305 0 01-1.844.557",
-    fillRule: "evenodd"
-  })));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (SvgUndrawDocusaurusTree);
-
-/***/ }),
-/* 336 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _g;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-function SvgUndrawDocusaurusReact(_ref) {
-  var title = _ref.title,
-      titleId = _ref.titleId,
-      props = _objectWithoutProperties(_ref, ["title", "titleId"]);
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 1041.277,
-    height: 554.141,
-    viewBox: "0 0 1041.277 554.141",
-    "aria-labelledby": titleId
-  }, props), title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
-    id: titleId
-  }, title) : null, _g || (_g = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 24"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 23",
-    transform: "translate(-.011 -.035)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 299",
-    d: "M961.48 438.21q-1.74 3.75-3.47 7.4-2.7 5.67-5.33 11.12c-.78 1.61-1.56 3.19-2.32 4.77-8.6 17.57-16.63 33.11-23.45 45.89a73.21 73.21 0 01-63.81 38.7l-151.65 1.65h-1.6l-13 .14-11.12.12-34.1.37h-1.38l-17.36.19h-.53l-107 1.16-95.51 1-11.11.12-69 .75h-.08l-44.75.48h-.48l-141.5 1.53-42.33.46a87.991 87.991 0 01-10.79-.54c-1.22-.14-2.44-.3-3.65-.49a87.38 87.38 0 01-51.29-27.54c-18.21-20.03-31.46-43.4-40.36-68.76q-1.93-5.49-3.6-11.12c-30.81-104.15 6.75-238.52 74.35-328.44q4.25-5.64 8.64-11l.07-.08c20.79-25.52 44.1-46.84 68.93-62 44-26.91 92.75-34.49 140.7-11.9 40.57 19.12 78.45 28.11 115.17 30.55 3.71.24 7.42.42 11.11.53 84.23 2.65 163.17-27.7 255.87-47.29 3.69-.78 7.39-1.55 11.12-2.28C763 .54 836.36-6.4 923.6 8.19a189.089 189.089 0 0126.76 6.4q5.77 1.86 11.12 4c41.64 16.94 64.35 48.24 74 87.46q1.37 5.46 2.37 11.11c17.11 94.34-33 228.16-76.37 321.05z",
-    fill: "#f2f2f2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 300",
-    d: "M497.02 445.61a95.21 95.21 0 01-1.87 11.12h93.7v-11.12zm-78.25 62.81l11.11-.09v-27.47c-3.81-.17-7.52-.34-11.11-.52zm-232.92-62.81v11.12h198.5v-11.12zm849.68-339.52h-74V18.6q-5.35-2.17-11.12-4v91.49H696.87V13.67c-3.73.73-7.43 1.5-11.12 2.28v90.14H429.88V63.24c-3.69-.11-7.4-.29-11.11-.53v43.38H162.9v-62c-24.83 15.16-48.14 36.48-68.93 62h-.07v.08q-4.4 5.4-8.64 11h8.64v328.44h-83q1.66 5.63 3.6 11.12h79.39v93.62a87 87 0 0012.2 2.79c1.21.19 2.43.35 3.65.49a87.991 87.991 0 0010.79.54l42.33-.46v-97h255.91v94.21l11.11-.12v-94.07h255.87v91.36l11.12-.12v-91.24h253.49v4.77c.76-1.58 1.54-3.16 2.32-4.77q2.63-5.45 5.33-11.12 1.73-3.64 3.47-7.4v-321h76.42q-1.01-5.69-2.37-11.12zM162.9 445.61V117.17h255.87v328.44zm267 0V117.17h255.85v328.44zm520.48 0H696.87V117.17h253.49z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 301",
-    d: "M863.09 533.65v13l-151.92 1.4-1.62.03-57.74.53-1.38.02-17.55.15h-.52l-106.98.99-175.61 1.63h-.15l-44.65.42-.48.01-198.4 1.82v-15l46.65-28 93.6-.78 2-.01.66-.01 2-.03 44.94-.37 2.01-.01.64-.01 2-.01 14.41-.12.38-.01 35.55-.3h.29l277.4-2.34 6.79-.05h.68l5.18-.05 37.65-.31 2-.03 1.85-.02h.96l11.71-.09 2.32-.03 3.11-.02 9.75-.09 15.47-.13 2-.02 3.48-.02h.65l74.71-.64z",
-    fill: "#65617d"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 302",
-    d: "M863.09 533.65v13l-151.92 1.4-1.62.03-57.74.53-1.38.02-17.55.15h-.52l-106.98.99-175.61 1.63h-.15l-44.65.42-.48.01-198.4 1.82v-15l46.65-28 93.6-.78 2-.01.66-.01 2-.03 44.94-.37 2.01-.01.64-.01 2-.01 14.41-.12.38-.01 35.55-.3h.29l277.4-2.34 6.79-.05h.68l5.18-.05 37.65-.31 2-.03 1.85-.02h.96l11.71-.09 2.32-.03 3.11-.02 9.75-.09 15.47-.13 2-.02 3.48-.02h.65l74.71-.64z",
-    opacity: 0.2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 303",
-    d: "M296.1 483.66v24.49a6.13 6.13 0 01-3.5 5.54 6 6 0 01-2.5.6l-34.9.74a6 6 0 01-2.7-.57 6.12 6.12 0 01-3.57-5.57v-25.23z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 304",
-    d: "M296.1 483.66v24.49a6.13 6.13 0 01-3.5 5.54 6 6 0 01-2.5.6l-34.9.74a6 6 0 01-2.7-.57 6.12 6.12 0 01-3.57-5.57v-25.23z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 305",
-    d: "M298.1 483.66v24.49a6.13 6.13 0 01-3.5 5.54 6 6 0 01-2.5.6l-34.9.74a6 6 0 01-2.7-.57 6.12 6.12 0 01-3.57-5.57v-25.23z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Rectangle 137",
-    fill: "#3f3d56",
-    d: "M680.92 483.65h47.17v31.5h-47.17z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Rectangle 138",
-    opacity: 0.1,
-    d: "M680.92 483.65h47.17v31.5h-47.17z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Rectangle 139",
-    fill: "#3f3d56",
-    d: "M678.92 483.65h47.17v31.5h-47.17z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 306",
-    d: "M298.09 483.65v4.97l-47.17 1.26v-6.23z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 307",
-    d: "M381.35 312.36v168.2a4 4 0 01-3.85 3.95l-191.65 5.1h-.05a4 4 0 01-3.95-3.95v-173.3a4 4 0 013.95-3.95h191.6a4 4 0 013.95 3.95z",
-    fill: "#65617d"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 308",
-    d: "M185.85 308.41v181.2h-.05a4 4 0 01-3.95-3.95v-173.3a4 4 0 013.95-3.95z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 309",
-    d: "M194.59 319.15h177.5V467.4l-177.5 4z",
-    fill: "#39374d"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 310",
-    d: "M726.09 483.65v6.41l-47.17-1.26v-5.15z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 311",
-    d: "M788.35 312.36v173.3a4 4 0 01-4 3.95l-191.69-5.1a4 4 0 01-3.85-3.95v-168.2a4 4 0 013.95-3.95h191.6a4 4 0 013.99 3.95z",
-    fill: "#65617d"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 312",
-    d: "M788.35 312.36v173.3a4 4 0 01-4 3.95v-181.2a4 4 0 014 3.95z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 313",
-    d: "M775.59 319.15h-177.5V467.4l177.5 4z",
-    fill: "#39374d"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 314",
-    d: "M583.85 312.36v168.2a4 4 0 01-3.85 3.95l-191.65 5.1a4 4 0 01-4-3.95v-173.3a4 4 0 013.95-3.95h191.6a4 4 0 013.95 3.95z",
-    fill: "#65617d"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 315",
-    d: "M397.09 319.15h177.5V467.4l-177.5 4z",
-    fill: "#4267b2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 316",
-    d: "M863.09 533.65v13l-151.92 1.4-1.62.03-57.74.53-1.38.02-17.55.15h-.52l-106.98.99-175.61 1.63h-.15l-44.65.42-.48.01-198.4 1.82v-15l202.51-1.33h.48l40.99-.28h.19l283.08-1.87h.29l.17-.01h.47l4.79-.03h1.46l74.49-.5 4.4-.02.98-.01z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 111",
-    cx: 51.33,
-    cy: 51.33,
-    r: 51.33,
-    transform: "translate(435.93 246.82)",
-    fill: "#fbbebe"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 317",
-    d: "M538.6 377.16s-99.5 12-90 0c3.44-4.34 4.39-17.2 4.2-31.85-.06-4.45-.22-9.06-.45-13.65-1.1-22-3.75-43.5-3.75-43.5s87-41 77-8.5c-4 13.13-2.69 31.57.35 48.88.89 5.05 1.92 10 3 14.7a344.66 344.66 0 009.65 33.92z",
-    fill: "#fbbebe"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 318",
-    d: "M506.13 373.09c11.51-2.13 23.7-6 34.53-1.54 2.85 1.17 5.47 2.88 8.39 3.86s6.12 1.22 9.16 1.91c10.68 2.42 19.34 10.55 24.9 20s8.44 20.14 11.26 30.72l6.9 25.83c6 22.45 12 45.09 13.39 68.3a2437.506 2437.506 0 01-250.84 1.43c5.44-10.34 11-21.31 10.54-33s-7.19-23.22-4.76-34.74c1.55-7.34 6.57-13.39 9.64-20.22 8.75-19.52 1.94-45.79 17.32-60.65 6.92-6.68 17-9.21 26.63-8.89 12.28.41 24.85 4.24 37 6.11 15.56 2.36 30.26 3.76 45.94.88z",
-    fill: "#ff6584"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 319",
-    d: "M637.03 484.26l-.1 1.43v.1l-.17 2.3-1.33 18.51-1.61 22.3-.46 6.28-1 13.44v.17l-107 1-175.59 1.9v.84h-.14v-1.12l.45-14.36.86-28.06.74-23.79.07-2.37a10.53 10.53 0 0111.42-10.17c4.72.4 10.85.89 18.18 1.41l3 .22c42.33 2.94 120.56 6.74 199.5 2 1.66-.09 3.33-.19 5-.31 12.24-.77 24.47-1.76 36.58-3a10.53 10.53 0 0111.6 11.23z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 320",
-    d: "M349.74 552.53v-.84l175.62-1.91 107-1h.3v-.17l1-13.44.43-6 1.64-22.61 1.29-17.9v-.44a10.617 10.617 0 00-.11-2.47.3.3 0 000-.1 10.391 10.391 0 00-2-4.64 10.54 10.54 0 00-9.42-4 937.419 937.419 0 01-36.58 3c-1.67.12-3.34.22-5 .31-78.94 4.69-157.17.89-199.5-2l-3-.22c-7.33-.52-13.46-1-18.18-1.41a10.54 10.54 0 00-11.24 8.53 11 11 0 00-.18 1.64l-.68 22.16-.93 28.07-.44 14.36v1.12z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 321",
-    d: "M637.33 491.27l-1.23 15.33-1.83 22.85-.46 5.72-1 12.81-.06.64v.17l-.15 1.48.11-1.48h-.29l-107 1-175.65 1.9v-.28l.49-14.36 1-28.06.64-18.65a6.36 6.36 0 013.06-5.25 6.25 6.25 0 013.78-.9c2.1.17 4.68.37 7.69.59 4.89.36 10.92.78 17.94 1.22 13 .82 29.31 1.7 48 2.42 52 2 122.2 2.67 188.88-3.17 3-.26 6.1-.55 9.13-.84a6.26 6.26 0 013.48.66 5.159 5.159 0 01.86.54 6.14 6.14 0 012 2.46 3.564 3.564 0 01.25.61 6.279 6.279 0 01.36 2.59z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 322",
-    d: "M298.1 504.96v3.19a6.13 6.13 0 01-3.5 5.54l-40.1.77a6.12 6.12 0 01-3.57-5.57v-3z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 323",
-    d: "M298.59 515.57l-52.25 1v-8.67l52.25-1z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 324",
-    d: "M298.59 515.57l-52.25 1v-8.67l52.25-1z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 325",
-    d: "M300.59 515.57l-52.25 1v-8.67l52.25-1z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 326",
-    d: "M679.22 506.96v3.19a6.13 6.13 0 003.5 5.54l40.1.77a6.12 6.12 0 003.57-5.57v-3z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 327",
-    d: "M678.72 517.57l52.25 1v-8.67l-52.25-1z",
-    opacity: 0.1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 328",
-    d: "M676.72 517.57l52.25 1v-8.67l-52.25-1z",
-    fill: "#3f3d56"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 329",
-    d: "M454.79 313.88c.08 7-3.16 13.6-5.91 20.07a163.491 163.491 0 00-12.66 74.71c.73 11 2.58 22 .73 32.9s-8.43 21.77-19 24.9c17.53 10.45 41.26 9.35 57.76-2.66 8.79-6.4 15.34-15.33 21.75-24.11a97.86 97.86 0 01-13.31 44.75 103.43 103.43 0 0073.51-40.82c4.31-5.81 8.06-12.19 9.72-19.23 3.09-13-1.22-26.51-4.51-39.5a266.055 266.055 0 01-6.17-33c-.43-3.56-.78-7.22.1-10.7 1-4.07 3.67-7.51 5.64-11.22 5.6-10.54 5.73-23.3 2.86-34.88s-8.49-22.26-14.06-32.81c-4.46-8.46-9.3-17.31-17.46-22.28-5.1-3.1-11-4.39-16.88-5.64l-25.37-5.43c-5.55-1.19-11.26-2.38-16.87-1.51-9.47 1.48-16.14 8.32-22 15.34-4.59 5.46-15.81 15.71-16.6 22.86-.72 6.59 5.1 17.63 6.09 24.58 1.3 9 2.22 6 7.3 11.52 3.21 3.42 5.28 7.37 5.34 12.16z",
-    fill: "#3f3d56"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 40",
-    d: "M280.139 370.832h43.635v17.662h-43.635z",
-    fill: "#fff",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 41",
-    d: "M240.66 428.493a10.377 10.377 0 01-8.989-5.195 10.377 10.377 0 008.988 15.584h10.391v-10.389z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 42",
-    d: "M287.402 373.625l36.373-2.273v-5.195a10.389 10.389 0 00-10.39-10.389h-46.75l-1.3-2.249a1.5 1.5 0 00-2.6 0l-1.3 2.249-1.3-2.249a1.5 1.5 0 00-2.6 0l-1.3 2.249-1.3-2.249a1.5 1.5 0 00-2.6 0l-1.3 2.249h-.034l-2.152-2.151a1.5 1.5 0 00-2.508.672l-.696 2.653-2.7-.723a1.5 1.5 0 00-1.836 1.837l.722 2.7-2.65.71a1.5 1.5 0 00-.673 2.509l2.152 2.152v.033l-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.25 1.282-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3-2.249 1.3a1.5 1.5 0 000 2.6l2.249 1.3a10.389 10.389 0 0010.389 10.34h62.335a10.389 10.389 0 0010.39-10.39v-41.557l-36.373-2.273a5.53 5.53 0 010-11.038",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 43",
-    d: "M302.996 438.882h15.584v-20.779h-15.584z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 44",
-    d: "M328.97 425.895a2.582 2.582 0 00-.332.033c-.02-.078-.038-.156-.06-.234a2.594 2.594 0 10-2.567-4.455q-.086-.088-.174-.175a2.593 2.593 0 10-4.461-2.569c-.077-.022-.154-.04-.231-.06a2.6 2.6 0 10-5.128 0c-.077.02-.154.038-.231.06a2.594 2.594 0 10-4.461 2.569 10.384 10.384 0 1017.314 9.992 2.592 2.592 0 10.332-5.161",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 45",
-    d: "M308.191 407.713h15.584v-10.389h-15.584z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 46",
-    d: "M328.969 403.818a1.3 1.3 0 100-2.6 1.336 1.336 0 00-.166.017l-.03-.117a1.3 1.3 0 00-.5-2.5 1.285 1.285 0 00-.783.269l-.087-.087a1.285 1.285 0 00.263-.776 1.3 1.3 0 00-2.493-.509 5.195 5.195 0 100 10 1.3 1.3 0 002.493-.509 1.285 1.285 0 00-.263-.776l.087-.087a1.285 1.285 0 00.783.269 1.3 1.3 0 00.5-2.5c.011-.038.02-.078.03-.117a1.337 1.337 0 00.166.017",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 47",
-    d: "M261.439 372.65a1.3 1.3 0 01-1.3-1.3 3.9 3.9 0 00-7.792 0 1.3 1.3 0 11-2.6 0 6.494 6.494 0 0112.987 0 1.3 1.3 0 01-1.3 1.3",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 48",
-    d: "M282.217 438.882h31.168a10.389 10.389 0 0010.389-10.389V392.13h-31.168a10.389 10.389 0 00-10.389 10.389z",
-    fill: "#ffff50",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 49",
-    d: "M315.993 408.233h-25.994a.52.52 0 110-1.039h25.994a.52.52 0 010 1.039m0 10.389h-25.994a.52.52 0 110-1.039h25.994a.52.52 0 010 1.039m0 10.389h-25.994a.52.52 0 110-1.039h25.994a.52.52 0 010 1.039m0-25.877h-25.994a.52.52 0 110-1.039h25.994a.52.52 0 010 1.039m0 10.293h-25.994a.52.52 0 110-1.039h25.994a.52.52 0 010 1.039m0 10.389h-25.994a.52.52 0 110-1.039h25.994a.52.52 0 010 1.039m7.782-47.993h-.018c-1.605.055-2.365 1.66-3.035 3.077-.7 1.48-1.24 2.443-2.126 2.414-.981-.035-1.542-1.144-2.137-2.317-.683-1.347-1.462-2.876-3.1-2.819-1.582.054-2.344 1.451-3.017 2.684-.715 1.313-1.2 2.112-2.141 2.075-1-.036-1.533-.938-2.149-1.981-.686-1.162-1.479-2.467-3.084-2.423-1.555.053-2.319 1.239-2.994 2.286-.713 1.106-1.213 1.781-2.164 1.741-1.025-.036-1.554-.784-2.167-1.65-.688-.973-1.463-2.074-3.062-2.021a3.815 3.815 0 00-2.959 1.879c-.64.812-1.14 1.456-2.2 1.415a.52.52 0 00-.037 1.039 3.588 3.588 0 003.05-1.811c.611-.777 1.139-1.448 2.178-1.483 1-.043 1.47.579 2.179 1.582.674.953 1.438 2.033 2.977 2.089 1.612.054 2.387-1.151 3.074-2.217.614-.953 1.144-1.775 2.156-1.81.931-.035 1.438.7 2.153 1.912.674 1.141 1.437 2.434 3.006 2.491 1.623.056 2.407-1.361 3.09-2.616.592-1.085 1.15-2.109 2.14-2.143.931-.022 1.417.829 2.135 2.249.671 1.326 1.432 2.828 3.026 2.886h.088c1.592 0 2.347-1.6 3.015-3.01.592-1.252 1.152-2.431 2.113-2.479z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 50",
-    d: "M271.828 438.882h20.779v-20.779h-20.779z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 8",
-    transform: "rotate(-14.98 1643.944 -873.93)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 3",
-    width: 43.906,
-    height: 17.333,
-    rx: 2,
-    fill: "#d8d8d8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 2",
-    transform: "translate(.728 10.948)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 4",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(7.985)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 5",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(10.991)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 6",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(13.997)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 7",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(17.003)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 8",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(20.009)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 9",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(23.015)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 10",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(26.021)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 11",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(29.028)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 12",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(32.034)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 51",
-    d: "M.519 0H6.9a.519.519 0 01.521.52v1.5a.519.519 0 01-.519.519H.519A.519.519 0 010 2.017V.519A.519.519 0 01.519 0zm35.134 0h6.383a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519h-6.384a.519.519 0 01-.519-.519v-1.5A.519.519 0 0135.652 0z",
-    fillRule: "evenodd"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 3",
-    transform: "translate(.728 4.878)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 52",
-    d: "M.519 0h2.437a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519H.519A.519.519 0 010 2.017V.519A.519.519 0 01.519 0z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 13",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(3.945)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 14",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(6.951)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 15",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(9.958)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 16",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(12.964)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 17",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(15.97)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 18",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(18.976)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 19",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(21.982)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 20",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(24.988)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 21",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(27.994)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 22",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(31)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 23",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(34.006)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 24",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(37.012)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 25",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(40.018)"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 4",
-    transform: "rotate(180 21.642 2.269)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 53",
-    d: "M.519 0h2.437a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519H.519A.519.519 0 010 2.017V.519A.519.519 0 01.519 0z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 26",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(3.945)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 27",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(6.951)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 28",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(9.958)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 29",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(12.964)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 30",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(15.97)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 31",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(18.976)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 32",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(21.982)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 33",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(24.988)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 34",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(27.994)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 35",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(31.001)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 36",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(34.007)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 37",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(37.013)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 38",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(40.018)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 39",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(3.945)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 40",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(6.951)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 41",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(9.958)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 42",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(12.964)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 43",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(15.97)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 44",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(18.976)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 45",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(21.982)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 46",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(24.988)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 47",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(27.994)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 48",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(31.001)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 49",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(34.007)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 50",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(37.013)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 51",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(40.018)"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 6",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 54",
-    d: "M1.247 7.883h3.47a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519h-3.47A.519.519 0 01.728 9.9V8.403a.519.519 0 01.519-.52z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 5",
-    transform: "translate(5.801 7.883)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 52",
-    width: 2.537,
-    height: 2.537,
-    rx: 1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 53",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(3.006)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 54",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(6.012)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 55",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(9.018)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 56",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(12.025)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 57",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(15.031)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 58",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(18.037)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 59",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(21.042)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 60",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(24.049)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 61",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(27.055)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 62",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(30.061)"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 55",
-    d: "M39.482 7.883h3.28a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519h-3.281a.519.519 0 01-.519-.521V8.403a.519.519 0 01.519-.52z",
-    fillRule: "evenodd"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    "data-name": "Group 7",
-    transform: "translate(.728 14.084)",
-    fill: "#4a4a4a"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 63",
-    width: 2.537,
-    height: 2.537,
-    rx: 1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 64",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(3.006)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 65",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(6.012)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 66",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(9.018)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 56",
-    d: "M12.543 0h14.462a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519H12.543a.519.519 0 01-.519-.52V.519A.519.519 0 0112.543 0zm15.97 0h1.874a.519.519 0 01.519.519v1.5a.519.519 0 01-.519.519h-1.874a.519.519 0 01-.519-.519v-1.5A.519.519 0 0128.513 0z",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 67",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(31.376)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 68",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(34.382)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 69",
-    width: 2.537,
-    height: 2.537,
-    rx: 1,
-    transform: "translate(40.018)"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 57",
-    d: "M37.199 1.08V.519A.519.519 0 0137.718 0h1.499a.519.519 0 01.519.519v.561z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 58",
-    d: "M39.737 1.456v.561a.519.519 0 01-.519.519h-1.499a.519.519 0 01-.519-.519v-.561z"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 70",
-    width: 42.273,
-    height: 1.127,
-    rx: 0.564,
-    transform: "translate(.915 .556)",
-    fill: "#4a4a4a"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 71",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(1.949 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 72",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(5.193 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 73",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(7.688 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 74",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(10.183 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 75",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(12.679 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 76",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(15.797 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 77",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(18.292 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 78",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(20.788 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 79",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(23.283 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 80",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(26.402 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 81",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(28.897 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 82",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(31.393 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 83",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(34.512 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 84",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(37.007 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    "data-name": "Rectangle 85",
-    width: 2.37,
-    height: 0.752,
-    rx: 0.376,
-    transform: "translate(39.502 .744)",
-    fill: "#d8d8d8",
-    opacity: 0.136
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 59",
-    d: "M302.996 425.895a2.583 2.583 0 00-.332.033c-.02-.078-.038-.156-.06-.234a2.594 2.594 0 10-2.567-4.455q-.086-.088-.174-.175a2.593 2.593 0 10-4.461-2.569c-.077-.022-.154-.04-.231-.06a2.6 2.6 0 10-5.128 0c-.077.02-.154.038-.231.06a2.594 2.594 0 10-4.461 2.569 10.384 10.384 0 1017.314 9.992 2.592 2.592 0 10.332-5.161",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 60",
-    d: "M271.828 407.713h20.779v-10.389h-20.779z",
-    fill: "#3ecc5f",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 61",
-    d: "M297.801 403.818a1.3 1.3 0 100-2.6 1.338 1.338 0 00-.166.017l-.03-.117a1.3 1.3 0 00-.5-2.5 1.285 1.285 0 00-.783.269l-.087-.087a1.285 1.285 0 00.263-.776 1.3 1.3 0 00-2.493-.509 5.195 5.195 0 100 10 1.3 1.3 0 002.493-.509 1.285 1.285 0 00-.263-.776l.087-.087a1.285 1.285 0 00.783.269 1.3 1.3 0 00.5-2.5c.011-.038.02-.078.03-.117a1.335 1.335 0 00.166.017",
-    fill: "#44d860",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 62",
-    d: "M302.997 365.507a1.41 1.41 0 01-.255-.026 1.309 1.309 0 01-.244-.073 1.349 1.349 0 01-.224-.119 1.967 1.967 0 01-.2-.161 1.52 1.52 0 01-.161-.2 1.282 1.282 0 01-.218-.722 1.41 1.41 0 01.026-.255 1.5 1.5 0 01.072-.244 1.364 1.364 0 01.12-.223 1.252 1.252 0 01.358-.358 1.349 1.349 0 01.224-.119 1.309 1.309 0 01.244-.073 1.2 1.2 0 01.509 0 1.262 1.262 0 01.468.192 1.968 1.968 0 01.2.161 1.908 1.908 0 01.161.2 1.322 1.322 0 01.12.223 1.361 1.361 0 01.1.5 1.317 1.317 0 01-.379.919 1.968 1.968 0 01-.2.161 1.346 1.346 0 01-.223.119 1.332 1.332 0 01-.5.1m10.389-.649a1.326 1.326 0 01-.92-.379 1.979 1.979 0 01-.161-.2 1.282 1.282 0 01-.218-.722 1.326 1.326 0 01.379-.919 1.967 1.967 0 01.2-.161 1.351 1.351 0 01.224-.119 1.308 1.308 0 01.244-.073 1.2 1.2 0 01.509 0 1.262 1.262 0 01.468.192 1.967 1.967 0 01.2.161 1.326 1.326 0 01.379.919 1.461 1.461 0 01-.026.255 1.323 1.323 0 01-.073.244 1.847 1.847 0 01-.119.223 1.911 1.911 0 01-.161.2 1.967 1.967 0 01-.2.161 1.294 1.294 0 01-.722.218",
-    fillRule: "evenodd"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-    transform: "translate(466.3 278.56)",
-    fill: "#61dafb"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    "data-name": "Path 330",
-    d: "M263.668 117.179c0-5.827-7.3-11.35-18.487-14.775 2.582-11.4 1.434-20.477-3.622-23.382a7.861 7.861 0 00-4.016-1v4a4.152 4.152 0 012.044.466c2.439 1.4 3.5 6.724 2.672 13.574-.2 1.685-.52 3.461-.914 5.272a86.9 86.9 0 00-11.386-1.954 87.469 87.469 0 00-7.459-8.965c5.845-5.433 11.332-8.41 15.062-8.41V78c-4.931 0-11.386 3.514-17.913 9.611-6.527-6.061-12.982-9.539-17.913-9.539v4c3.712 0 9.216 2.959 15.062 8.356a84.687 84.687 0 00-7.405 8.947 83.732 83.732 0 00-11.4 1.972 54.136 54.136 0 01-.932-5.2c-.843-6.85.2-12.175 2.618-13.592a3.991 3.991 0 012.062-.466v-4a8 8 0 00-4.052 1c-5.039 2.9-6.168 11.96-3.568 23.328-11.153 3.443-18.415 8.947-18.415 14.757 0 5.828 7.3 11.35 18.487 14.775-2.582 11.4-1.434 20.477 3.622 23.382a7.882 7.882 0 004.034 1c4.931 0 11.386-3.514 17.913-9.611 6.527 6.061 12.982 9.539 17.913 9.539a8 8 0 004.052-1c5.039-2.9 6.168-11.96 3.568-23.328 11.111-3.42 18.373-8.943 18.373-14.752zm-23.346-11.96a80.235 80.235 0 01-2.421 7.083 83.185 83.185 0 00-2.349-4.3 96.877 96.877 0 00-2.582-4.2c2.547.377 5.004.843 7.353 1.417zm-8.212 19.1c-1.4 2.421-2.833 4.716-4.321 6.85a93.313 93.313 0 01-8.1.359c-2.708 0-5.415-.126-8.069-.341q-2.232-3.2-4.339-6.814-2.044-3.523-3.73-7.136a94.058 94.058 0 013.712-7.154c1.4-2.421 2.833-4.716 4.321-6.85a93.313 93.313 0 018.1-.359c2.708 0 5.415.126 8.069.341q2.232 3.2 4.339 6.814 2.044 3.523 3.73 7.136a101.198 101.198 0 01-3.712 7.15zm5.792-2.331a76.525 76.525 0 012.474 7.136 80.22 80.22 0 01-7.387 1.434c.879-1.381 1.757-2.8 2.582-4.25a96.22 96.22 0 002.329-4.324zm-18.182 19.128a73.921 73.921 0 01-4.985-5.738c1.614.072 3.263.126 4.931.126 1.685 0 3.353-.036 4.985-.126a69.993 69.993 0 01-4.931 5.738zm-13.34-10.561c-2.546-.377-5-.843-7.352-1.417a80.235 80.235 0 012.421-7.083c.735 1.434 1.506 2.869 2.349 4.3s1.702 2.837 2.582 4.2zm13.25-37.314a73.924 73.924 0 014.985 5.738 110.567 110.567 0 00-4.931-.126c-1.686 0-3.353.036-4.985.126a69.993 69.993 0 014.931-5.738zM206.362 103.8a100.567 100.567 0 00-4.913 8.55 76.525 76.525 0 01-2.474-7.136 90.158 90.158 0 017.387-1.414zm-16.227 22.449c-6.348-2.708-10.454-6.258-10.454-9.073s4.106-6.383 10.454-9.073c1.542-.663 3.228-1.255 4.967-1.811a86.122 86.122 0 004.034 10.92 84.9 84.9 0 00-3.981 10.866 53.804 53.804 0 01-5.021-1.826zm9.647 25.623c-2.439-1.4-3.5-6.724-2.672-13.574.2-1.686.52-3.461.914-5.272a86.9 86.9 0 0011.386 1.954 87.465 87.465 0 007.459 8.965c-5.845 5.433-11.332 8.41-15.062 8.41a4.279 4.279 0 01-2.026-.48zm42.532-13.663c.843 6.85-.2 12.175-2.618 13.592a3.99 3.99 0 01-2.062.466c-3.712 0-9.216-2.959-15.062-8.356a84.689 84.689 0 007.405-8.947 83.731 83.731 0 0011.4-1.972 50.194 50.194 0 01.936 5.22zm6.9-11.96c-1.542.663-3.228 1.255-4.967 1.811a86.12 86.12 0 00-4.034-10.92 84.9 84.9 0 003.981-10.866 56.777 56.777 0 015.039 1.829c6.348 2.708 10.454 6.258 10.454 9.073-.017 2.818-4.123 6.386-10.471 9.076z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("circle", {
-    "data-name": "Ellipse 112",
-    cx: 8.194,
-    cy: 8.194,
-    r: 8.194,
-    transform: "translate(211.472 108.984)"
-  })))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (SvgUndrawDocusaurusReact);
-
-/***/ }),
-/* 337 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/docsVersionDropdown-dda80f009a926fb2dd92bab8faa6c4d8.png");
-
-/***/ }),
-/* 338 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/localeDropdown-0052c3f08ccaf802ac733b23e655f498.png");
 
 /***/ }),
-/* 339 */
+/* 336 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 340 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const components = __webpack_require__(341);
-const getLoader = __webpack_require__(342);
+const components = __webpack_require__(338);
+const getLoader = __webpack_require__(339);
 
 
 /**
@@ -57079,14 +55134,14 @@ module.exports = loadLanguages;
 
 
 /***/ }),
-/* 341 */
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var components = {"core":{"meta":{"path":"components/prism-core.js","option":"mandatory"},"core":"Core"},"themes":{"meta":{"path":"themes/{id}.css","link":"index.html?theme={id}","exclusive":true},"prism":{"title":"Default","option":"default"},"prism-dark":"Dark","prism-funky":"Funky","prism-okaidia":{"title":"Okaidia","owner":"ocodia"},"prism-twilight":{"title":"Twilight","owner":"remybach"},"prism-coy":{"title":"Coy","owner":"tshedor"},"prism-solarizedlight":{"title":"Solarized Light","owner":"hectormatos2011 "},"prism-tomorrow":{"title":"Tomorrow Night","owner":"Rosey"}},"languages":{"meta":{"path":"components/prism-{id}","noCSS":true,"examplesPath":"examples/prism-{id}","addCheckAll":true},"markup":{"title":"Markup","alias":["html","xml","svg","mathml","ssml","atom","rss"],"aliasTitles":{"html":"HTML","xml":"XML","svg":"SVG","mathml":"MathML","ssml":"SSML","atom":"Atom","rss":"RSS"},"option":"default"},"css":{"title":"CSS","option":"default","modify":"markup"},"clike":{"title":"C-like","option":"default"},"javascript":{"title":"JavaScript","require":"clike","modify":"markup","optional":"regex","alias":"js","option":"default"},"abap":{"title":"ABAP","owner":"dellagustin"},"abnf":{"title":"ABNF","owner":"RunDevelopment"},"actionscript":{"title":"ActionScript","require":"javascript","modify":"markup","owner":"Golmote"},"ada":{"title":"Ada","owner":"Lucretia"},"agda":{"title":"Agda","owner":"xy-ren"},"al":{"title":"AL","owner":"RunDevelopment"},"antlr4":{"title":"ANTLR4","alias":"g4","owner":"RunDevelopment"},"apacheconf":{"title":"Apache Configuration","owner":"GuiTeK"},"apex":{"title":"Apex","require":["clike","sql"],"owner":"RunDevelopment"},"apl":{"title":"APL","owner":"ngn"},"applescript":{"title":"AppleScript","owner":"Golmote"},"aql":{"title":"AQL","owner":"RunDevelopment"},"arduino":{"title":"Arduino","require":"cpp","owner":"dkern"},"arff":{"title":"ARFF","owner":"Golmote"},"asciidoc":{"alias":"adoc","title":"AsciiDoc","owner":"Golmote"},"aspnet":{"title":"ASP.NET (C#)","require":["markup","csharp"],"owner":"nauzilus"},"asm6502":{"title":"6502 Assembly","owner":"kzurawel"},"autohotkey":{"title":"AutoHotkey","owner":"aviaryan"},"autoit":{"title":"AutoIt","owner":"Golmote"},"bash":{"title":"Bash","alias":"shell","aliasTitles":{"shell":"Shell"},"owner":"zeitgeist87"},"basic":{"title":"BASIC","owner":"Golmote"},"batch":{"title":"Batch","owner":"Golmote"},"bbcode":{"title":"BBcode","alias":"shortcode","aliasTitles":{"shortcode":"Shortcode"},"owner":"RunDevelopment"},"birb":{"title":"Birb","require":"clike","owner":"Calamity210"},"bison":{"title":"Bison","require":"c","owner":"Golmote"},"bnf":{"title":"BNF","alias":"rbnf","aliasTitles":{"rbnf":"RBNF"},"owner":"RunDevelopment"},"brainfuck":{"title":"Brainfuck","owner":"Golmote"},"brightscript":{"title":"BrightScript","owner":"RunDevelopment"},"bro":{"title":"Bro","owner":"wayward710"},"bsl":{"title":"BSL (1C:Enterprise)","alias":"oscript","aliasTitles":{"oscript":"OneScript"},"owner":"Diversus23"},"c":{"title":"C","require":"clike","owner":"zeitgeist87"},"csharp":{"title":"C#","require":"clike","alias":["cs","dotnet"],"owner":"mvalipour"},"cpp":{"title":"C++","require":"c","owner":"zeitgeist87"},"cil":{"title":"CIL","owner":"sbrl"},"clojure":{"title":"Clojure","owner":"troglotit"},"cmake":{"title":"CMake","owner":"mjrogozinski"},"coffeescript":{"title":"CoffeeScript","require":"javascript","alias":"coffee","owner":"R-osey"},"concurnas":{"title":"Concurnas","alias":"conc","owner":"jasontatton"},"csp":{"title":"Content-Security-Policy","owner":"ScottHelme"},"crystal":{"title":"Crystal","require":"ruby","owner":"MakeNowJust"},"css-extras":{"title":"CSS Extras","require":"css","modify":"css","owner":"milesj"},"cypher":{"title":"Cypher","owner":"RunDevelopment"},"d":{"title":"D","require":"clike","owner":"Golmote"},"dart":{"title":"Dart","require":"clike","owner":"Golmote"},"dataweave":{"title":"DataWeave","owner":"machaval"},"dax":{"title":"DAX","owner":"peterbud"},"dhall":{"title":"Dhall","owner":"RunDevelopment"},"diff":{"title":"Diff","owner":"uranusjr"},"django":{"title":"Django/Jinja2","require":"markup-templating","alias":"jinja2","owner":"romanvm"},"dns-zone-file":{"title":"DNS zone file","owner":"RunDevelopment","alias":"dns-zone"},"docker":{"title":"Docker","alias":"dockerfile","owner":"JustinBeckwith"},"ebnf":{"title":"EBNF","owner":"RunDevelopment"},"editorconfig":{"title":"EditorConfig","owner":"osipxd"},"eiffel":{"title":"Eiffel","owner":"Conaclos"},"ejs":{"title":"EJS","require":["javascript","markup-templating"],"owner":"RunDevelopment","alias":"eta","aliasTitles":{"eta":"Eta"}},"elixir":{"title":"Elixir","owner":"Golmote"},"elm":{"title":"Elm","owner":"zwilias"},"etlua":{"title":"Embedded Lua templating","require":["lua","markup-templating"],"owner":"RunDevelopment"},"erb":{"title":"ERB","require":["ruby","markup-templating"],"owner":"Golmote"},"erlang":{"title":"Erlang","owner":"Golmote"},"excel-formula":{"title":"Excel Formula","alias":["xlsx","xls"],"owner":"RunDevelopment"},"fsharp":{"title":"F#","require":"clike","owner":"simonreynolds7"},"factor":{"title":"Factor","owner":"catb0t"},"firestore-security-rules":{"title":"Firestore security rules","require":"clike","owner":"RunDevelopment"},"flow":{"title":"Flow","require":"javascript","owner":"Golmote"},"fortran":{"title":"Fortran","owner":"Golmote"},"ftl":{"title":"FreeMarker Template Language","require":"markup-templating","owner":"RunDevelopment"},"gml":{"title":"GameMaker Language","alias":"gamemakerlanguage","require":"clike","owner":"LiarOnce"},"gcode":{"title":"G-code","owner":"RunDevelopment"},"gdscript":{"title":"GDScript","owner":"RunDevelopment"},"gedcom":{"title":"GEDCOM","owner":"Golmote"},"gherkin":{"title":"Gherkin","owner":"hason"},"git":{"title":"Git","owner":"lgiraudel"},"glsl":{"title":"GLSL","require":"c","owner":"Golmote"},"go":{"title":"Go","require":"clike","owner":"arnehormann"},"graphql":{"title":"GraphQL","optional":["markdown"],"owner":"Golmote"},"groovy":{"title":"Groovy","require":"clike","owner":"robfletcher"},"haml":{"title":"Haml","require":"ruby","optional":["css","css-extras","coffeescript","erb","javascript","less","markdown","scss","textile"],"owner":"Golmote"},"handlebars":{"title":"Handlebars","require":"markup-templating","owner":"Golmote"},"haskell":{"title":"Haskell","alias":"hs","owner":"bholst"},"haxe":{"title":"Haxe","require":"clike","owner":"Golmote"},"hcl":{"title":"HCL","owner":"outsideris"},"hlsl":{"title":"HLSL","require":"c","owner":"RunDevelopment"},"http":{"title":"HTTP","optional":["css","javascript","json","markup"],"owner":"danielgtaylor"},"hpkp":{"title":"HTTP Public-Key-Pins","owner":"ScottHelme"},"hsts":{"title":"HTTP Strict-Transport-Security","owner":"ScottHelme"},"ichigojam":{"title":"IchigoJam","owner":"BlueCocoa"},"icon":{"title":"Icon","owner":"Golmote"},"ignore":{"title":".ignore","owner":"osipxd","alias":["gitignore","hgignore","npmignore"],"aliasTitles":{"gitignore":".gitignore","hgignore":".hgignore","npmignore":".npmignore"}},"inform7":{"title":"Inform 7","owner":"Golmote"},"ini":{"title":"Ini","owner":"aviaryan"},"io":{"title":"Io","owner":"AlesTsurko"},"j":{"title":"J","owner":"Golmote"},"java":{"title":"Java","require":"clike","owner":"sherblot"},"javadoc":{"title":"JavaDoc","require":["markup","java","javadoclike"],"modify":"java","optional":"scala","owner":"RunDevelopment"},"javadoclike":{"title":"JavaDoc-like","modify":["java","javascript","php"],"owner":"RunDevelopment"},"javastacktrace":{"title":"Java stack trace","owner":"RunDevelopment"},"jolie":{"title":"Jolie","require":"clike","owner":"thesave"},"jq":{"title":"JQ","owner":"RunDevelopment"},"jsdoc":{"title":"JSDoc","require":["javascript","javadoclike","typescript"],"modify":"javascript","optional":["actionscript","coffeescript"],"owner":"RunDevelopment"},"js-extras":{"title":"JS Extras","require":"javascript","modify":"javascript","optional":["actionscript","coffeescript","flow","n4js","typescript"],"owner":"RunDevelopment"},"json":{"title":"JSON","alias":"webmanifest","aliasTitles":{"webmanifest":"Web App Manifest"},"owner":"CupOfTea696"},"json5":{"title":"JSON5","require":"json","owner":"RunDevelopment"},"jsonp":{"title":"JSONP","require":"json","owner":"RunDevelopment"},"jsstacktrace":{"title":"JS stack trace","owner":"sbrl"},"js-templates":{"title":"JS Templates","require":"javascript","modify":"javascript","optional":["css","css-extras","graphql","markdown","markup"],"owner":"RunDevelopment"},"julia":{"title":"Julia","owner":"cdagnino"},"keyman":{"title":"Keyman","owner":"mcdurdin"},"kotlin":{"title":"Kotlin","alias":["kt","kts"],"aliasTitles":{"kts":"Kotlin Script"},"require":"clike","owner":"Golmote"},"latex":{"title":"LaTeX","alias":["tex","context"],"aliasTitles":{"tex":"TeX","context":"ConTeXt"},"owner":"japborst"},"latte":{"title":"Latte","require":["clike","markup-templating","php"],"owner":"nette"},"less":{"title":"Less","require":"css","optional":"css-extras","owner":"Golmote"},"lilypond":{"title":"LilyPond","require":"scheme","alias":"ly","owner":"RunDevelopment"},"liquid":{"title":"Liquid","owner":"cinhtau"},"lisp":{"title":"Lisp","alias":["emacs","elisp","emacs-lisp"],"owner":"JuanCaicedo"},"livescript":{"title":"LiveScript","owner":"Golmote"},"llvm":{"title":"LLVM IR","owner":"porglezomp"},"lolcode":{"title":"LOLCODE","owner":"Golmote"},"lua":{"title":"Lua","owner":"Golmote"},"makefile":{"title":"Makefile","owner":"Golmote"},"markdown":{"title":"Markdown","require":"markup","optional":"yaml","alias":"md","owner":"Golmote"},"markup-templating":{"title":"Markup templating","require":"markup","owner":"Golmote"},"matlab":{"title":"MATLAB","owner":"Golmote"},"mel":{"title":"MEL","owner":"Golmote"},"mizar":{"title":"Mizar","owner":"Golmote"},"mongodb":{"title":"MongoDB","owner":"airs0urce","require":"javascript"},"monkey":{"title":"Monkey","owner":"Golmote"},"moonscript":{"title":"MoonScript","alias":"moon","owner":"RunDevelopment"},"n1ql":{"title":"N1QL","owner":"TMWilds"},"n4js":{"title":"N4JS","require":"javascript","optional":"jsdoc","alias":"n4jsd","owner":"bsmith-n4"},"nand2tetris-hdl":{"title":"Nand To Tetris HDL","owner":"stephanmax"},"naniscript":{"title":"Naninovel Script","owner":"Elringus","alias":"nani"},"nasm":{"title":"NASM","owner":"rbmj"},"neon":{"title":"NEON","owner":"nette"},"nginx":{"title":"nginx","owner":"westonganger","require":"clike"},"nim":{"title":"Nim","owner":"Golmote"},"nix":{"title":"Nix","owner":"Golmote"},"nsis":{"title":"NSIS","owner":"idleberg"},"objectivec":{"title":"Objective-C","require":"c","alias":"objc","owner":"uranusjr"},"ocaml":{"title":"OCaml","owner":"Golmote"},"opencl":{"title":"OpenCL","require":"c","modify":["c","cpp"],"owner":"Milania1"},"oz":{"title":"Oz","owner":"Golmote"},"parigp":{"title":"PARI/GP","owner":"Golmote"},"parser":{"title":"Parser","require":"markup","owner":"Golmote"},"pascal":{"title":"Pascal","alias":"objectpascal","aliasTitles":{"objectpascal":"Object Pascal"},"owner":"Golmote"},"pascaligo":{"title":"Pascaligo","owner":"DefinitelyNotAGoat"},"pcaxis":{"title":"PC-Axis","alias":"px","owner":"RunDevelopment"},"peoplecode":{"title":"PeopleCode","alias":"pcode","owner":"RunDevelopment"},"perl":{"title":"Perl","owner":"Golmote"},"php":{"title":"PHP","require":"markup-templating","owner":"milesj"},"phpdoc":{"title":"PHPDoc","require":["php","javadoclike"],"modify":"php","owner":"RunDevelopment"},"php-extras":{"title":"PHP Extras","require":"php","modify":"php","owner":"milesj"},"plsql":{"title":"PL/SQL","require":"sql","owner":"Golmote"},"powerquery":{"title":"PowerQuery","alias":["pq","mscript"],"owner":"peterbud"},"powershell":{"title":"PowerShell","owner":"nauzilus"},"processing":{"title":"Processing","require":"clike","owner":"Golmote"},"prolog":{"title":"Prolog","owner":"Golmote"},"promql":{"title":"PromQL","owner":"arendjr"},"properties":{"title":".properties","owner":"Golmote"},"protobuf":{"title":"Protocol Buffers","require":"clike","owner":"just-boris"},"pug":{"title":"Pug","require":["markup","javascript"],"optional":["coffeescript","ejs","handlebars","less","livescript","markdown","scss","stylus","twig"],"owner":"Golmote"},"puppet":{"title":"Puppet","owner":"Golmote"},"pure":{"title":"Pure","optional":["c","cpp","fortran"],"owner":"Golmote"},"purebasic":{"title":"PureBasic","require":"clike","alias":"pbfasm","owner":"HeX0R101"},"purescript":{"title":"PureScript","require":"haskell","alias":"purs","owner":"sriharshachilakapati"},"python":{"title":"Python","alias":"py","owner":"multipetros"},"q":{"title":"Q (kdb+ database)","owner":"Golmote"},"qml":{"title":"QML","require":"javascript","owner":"RunDevelopment"},"qore":{"title":"Qore","require":"clike","owner":"temnroegg"},"r":{"title":"R","owner":"Golmote"},"racket":{"title":"Racket","require":"scheme","alias":"rkt","owner":"RunDevelopment"},"jsx":{"title":"React JSX","require":["markup","javascript"],"optional":["jsdoc","js-extras","js-templates"],"owner":"vkbansal"},"tsx":{"title":"React TSX","require":["jsx","typescript"]},"reason":{"title":"Reason","require":"clike","owner":"Golmote"},"regex":{"title":"Regex","owner":"RunDevelopment"},"renpy":{"title":"Ren'py","alias":"rpy","owner":"HyuchiaDiego"},"rest":{"title":"reST (reStructuredText)","owner":"Golmote"},"rip":{"title":"Rip","owner":"ravinggenius"},"roboconf":{"title":"Roboconf","owner":"Golmote"},"robotframework":{"title":"Robot Framework","alias":"robot","owner":"RunDevelopment"},"ruby":{"title":"Ruby","require":"clike","alias":"rb","owner":"samflores"},"rust":{"title":"Rust","owner":"Golmote"},"sas":{"title":"SAS","optional":["groovy","lua","sql"],"owner":"Golmote"},"sass":{"title":"Sass (Sass)","require":"css","owner":"Golmote"},"scss":{"title":"Sass (Scss)","require":"css","optional":"css-extras","owner":"MoOx"},"scala":{"title":"Scala","require":"java","owner":"jozic"},"scheme":{"title":"Scheme","owner":"bacchus123"},"shell-session":{"title":"Shell session","require":"bash","alias":["sh-session","shellsession"],"owner":"RunDevelopment"},"smali":{"title":"Smali","owner":"RunDevelopment"},"smalltalk":{"title":"Smalltalk","owner":"Golmote"},"smarty":{"title":"Smarty","require":"markup-templating","owner":"Golmote"},"sml":{"title":"SML","alias":"smlnj","aliasTitles":{"smlnj":"SML/NJ"},"owner":"RunDevelopment"},"solidity":{"title":"Solidity (Ethereum)","alias":"sol","require":"clike","owner":"glachaud"},"solution-file":{"title":"Solution file","alias":"sln","owner":"RunDevelopment"},"soy":{"title":"Soy (Closure Template)","require":"markup-templating","owner":"Golmote"},"sparql":{"title":"SPARQL","require":"turtle","owner":"Triply-Dev","alias":"rq"},"splunk-spl":{"title":"Splunk SPL","owner":"RunDevelopment"},"sqf":{"title":"SQF: Status Quo Function (Arma 3)","require":"clike","owner":"RunDevelopment"},"sql":{"title":"SQL","owner":"multipetros"},"stan":{"title":"Stan","owner":"RunDevelopment"},"iecst":{"title":"Structured Text (IEC 61131-3)","owner":"serhioromano"},"stylus":{"title":"Stylus","owner":"vkbansal"},"swift":{"title":"Swift","require":"clike","owner":"chrischares"},"t4-templating":{"title":"T4 templating","owner":"RunDevelopment"},"t4-cs":{"title":"T4 Text Templates (C#)","require":["t4-templating","csharp"],"alias":"t4","owner":"RunDevelopment"},"t4-vb":{"title":"T4 Text Templates (VB)","require":["t4-templating","vbnet"],"owner":"RunDevelopment"},"tap":{"title":"TAP","owner":"isaacs","require":"yaml"},"tcl":{"title":"Tcl","owner":"PeterChaplin"},"tt2":{"title":"Template Toolkit 2","require":["clike","markup-templating"],"owner":"gflohr"},"textile":{"title":"Textile","require":"markup","optional":"css","owner":"Golmote"},"toml":{"title":"TOML","owner":"RunDevelopment"},"turtle":{"title":"Turtle","alias":"trig","aliasTitles":{"trig":"TriG"},"owner":"jakubklimek"},"twig":{"title":"Twig","require":"markup","owner":"brandonkelly"},"typescript":{"title":"TypeScript","require":"javascript","optional":"js-templates","alias":"ts","owner":"vkbansal"},"typoscript":{"title":"TypoScript","alias":"tsconfig","aliasTitles":{"tsconfig":"TSConfig"},"owner":"dkern"},"unrealscript":{"title":"UnrealScript","alias":["uscript","uc"],"owner":"RunDevelopment"},"vala":{"title":"Vala","require":"clike","optional":"regex","owner":"TemplarVolk"},"vbnet":{"title":"VB.Net","require":"basic","owner":"Bigsby"},"velocity":{"title":"Velocity","require":"markup","owner":"Golmote"},"verilog":{"title":"Verilog","owner":"a-rey"},"vhdl":{"title":"VHDL","owner":"a-rey"},"vim":{"title":"vim","owner":"westonganger"},"visual-basic":{"title":"Visual Basic","alias":["vb","vba"],"aliasTitles":{"vba":"VBA"},"owner":"Golmote"},"warpscript":{"title":"WarpScript","owner":"RunDevelopment"},"wasm":{"title":"WebAssembly","owner":"Golmote"},"wiki":{"title":"Wiki markup","require":"markup","owner":"Golmote"},"xeora":{"title":"Xeora","require":"markup","alias":"xeoracube","aliasTitles":{"xeoracube":"XeoraCube"},"owner":"freakmaxi"},"xml-doc":{"title":"XML doc (.net)","require":"markup","modify":["csharp","fsharp","vbnet"],"owner":"RunDevelopment"},"xojo":{"title":"Xojo (REALbasic)","owner":"Golmote"},"xquery":{"title":"XQuery","require":"markup","owner":"Golmote"},"yaml":{"title":"YAML","alias":"yml","owner":"hason"},"yang":{"title":"YANG","owner":"RunDevelopment"},"zig":{"title":"Zig","owner":"RunDevelopment"}},"plugins":{"meta":{"path":"plugins/{id}/prism-{id}","link":"plugins/{id}/"},"line-highlight":{"title":"Line Highlight","description":"Highlights specific lines and/or line ranges."},"line-numbers":{"title":"Line Numbers","description":"Line number at the beginning of code lines.","owner":"kuba-kubula"},"show-invisibles":{"title":"Show Invisibles","description":"Show hidden characters such as tabs and line breaks.","optional":["autolinker","data-uri-highlight"]},"autolinker":{"title":"Autolinker","description":"Converts URLs and emails in code to clickable links. Parses Markdown links in comments."},"wpd":{"title":"WebPlatform Docs","description":"Makes tokens link to <a href=\"https://webplatform.github.io/docs/\">WebPlatform.org documentation</a>. The links open in a new tab."},"custom-class":{"title":"Custom Class","description":"This plugin allows you to prefix Prism's default classes (<code>.comment</code> can become <code>.namespace--comment</code>) or replace them with your defined ones (like <code>.editor__comment</code>). You can even add new classes.","owner":"dvkndn","noCSS":true},"file-highlight":{"title":"File Highlight","description":"Fetch external files and highlight them with Prism. Used on the Prism website itself.","noCSS":true},"show-language":{"title":"Show Language","description":"Display the highlighted language in code blocks (inline code does not show the label).","owner":"nauzilus","noCSS":true,"require":"toolbar"},"jsonp-highlight":{"title":"JSONP Highlight","description":"Fetch content with JSONP and highlight some interesting content (e.g. GitHub/Gists or Bitbucket API).","noCSS":true,"owner":"nauzilus"},"highlight-keywords":{"title":"Highlight Keywords","description":"Adds special CSS classes for each keyword matched in the code. For example, the keyword <code>if</code> will have the class <code>keyword-if</code> as well. You can have fine grained control over the appearance of each keyword by providing your own CSS rules.","owner":"vkbansal","noCSS":true},"remove-initial-line-feed":{"title":"Remove initial line feed","description":"Removes the initial line feed in code blocks.","owner":"Golmote","noCSS":true},"inline-color":{"title":"Inline color","description":"Adds a small inline preview for colors in style sheets.","require":"css-extras","owner":"RunDevelopment"},"previewers":{"title":"Previewers","description":"Previewers for angles, colors, gradients, easing and time.","require":"css-extras","owner":"Golmote"},"autoloader":{"title":"Autoloader","description":"Automatically loads the needed languages to highlight the code blocks.","owner":"Golmote","noCSS":true},"keep-markup":{"title":"Keep Markup","description":"Prevents custom markup from being dropped out during highlighting.","owner":"Golmote","optional":"normalize-whitespace","noCSS":true},"command-line":{"title":"Command Line","description":"Display a command line with a prompt and, optionally, the output/response from the commands.","owner":"chriswells0"},"unescaped-markup":{"title":"Unescaped Markup","description":"Write markup without having to escape anything."},"normalize-whitespace":{"title":"Normalize Whitespace","description":"Supports multiple operations to normalize whitespace in code blocks.","owner":"zeitgeist87","optional":"unescaped-markup","noCSS":true},"data-uri-highlight":{"title":"Data-URI Highlight","description":"Highlights data-URI contents.","owner":"Golmote","noCSS":true},"toolbar":{"title":"Toolbar","description":"Attach a toolbar for plugins to easily register buttons on the top of a code block.","owner":"mAAdhaTTah"},"copy-to-clipboard":{"title":"Copy to Clipboard Button","description":"Add a button that copies the code block to the clipboard when clicked.","owner":"mAAdhaTTah","require":"toolbar","noCSS":true},"download-button":{"title":"Download Button","description":"A button in the toolbar of a code block adding a convenient way to download a code file.","owner":"Golmote","require":"toolbar","noCSS":true},"match-braces":{"title":"Match braces","description":"Highlights matching braces.","owner":"RunDevelopment"},"diff-highlight":{"title":"Diff Highlight","description":"Highlights the code inside diff blocks.","owner":"RunDevelopment","require":"diff"},"filter-highlight-all":{"title":"Filter highlightAll","description":"Filters the elements the <code>highlightAll</code> and <code>highlightAllUnder</code> methods actually highlight.","owner":"RunDevelopment","noCSS":true},"treeview":{"title":"Treeview","description":"A language with special styles to highlight file system tree structures.","owner":"Golmote"}}};
 if ( true && module.exports) { module.exports = components; }
 
 /***/ }),
-/* 342 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57543,19 +55598,19 @@ if (true) {
 
 
 /***/ }),
-/* 343 */
+/* 340 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 344 */
+/* 341 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 345 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57601,7 +55656,7 @@ const setLazyProperty = (object, property, get) => {
 let colorConvert;
 const makeDynamicStyles = (wrap, targetSpace, identity, isBackground) => {
 	if (colorConvert === undefined) {
-		colorConvert = __webpack_require__(346);
+		colorConvert = __webpack_require__(343);
 	}
 
 	const offset = isBackground ? 10 : 0;
@@ -57726,11 +55781,11 @@ Object.defineProperty(module, 'exports', {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(90)(module)))
 
 /***/ }),
-/* 346 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const conversions = __webpack_require__(164);
-const route = __webpack_require__(348);
+const route = __webpack_require__(345);
 
 const convert = {};
 
@@ -57813,7 +55868,7 @@ module.exports = convert;
 
 
 /***/ }),
-/* 347 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57972,7 +56027,7 @@ module.exports = {
 
 
 /***/ }),
-/* 348 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const conversions = __webpack_require__(164);
@@ -58075,14 +56130,14 @@ module.exports = function (fromModel) {
 
 
 /***/ }),
-/* 349 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 const os = __webpack_require__(103);
-const tty = __webpack_require__(350);
-const hasFlag = __webpack_require__(351);
+const tty = __webpack_require__(347);
+const hasFlag = __webpack_require__(348);
 
 const {env} = process;
 
@@ -58217,13 +56272,13 @@ module.exports = {
 
 
 /***/ }),
-/* 350 */
+/* 347 */
 /***/ (function(module, exports) {
 
 module.exports = require("tty");
 
 /***/ }),
-/* 351 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58238,7 +56293,7 @@ module.exports = (flag, argv = process.argv) => {
 
 
 /***/ }),
-/* 352 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58284,7 +56339,7 @@ module.exports = {
 
 
 /***/ }),
-/* 353 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58425,7 +56480,7 @@ module.exports = (chalk, temporary) => {
 
 
 /***/ }),
-/* 354 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59624,7 +57679,7 @@ var nprogress = __webpack_require__(79);
 var nprogress_default = /*#__PURE__*/__webpack_require__.n(nprogress);
 
 // CONCATENATED MODULE: ./.docusaurus/client-modules.js
-/* harmony default export */ var client_modules = ([__webpack_require__(95),__webpack_require__(95),__webpack_require__(95),__webpack_require__(339),__webpack_require__(355),__webpack_require__(343)]);
+/* harmony default export */ var client_modules = ([__webpack_require__(95),__webpack_require__(95),__webpack_require__(95),__webpack_require__(336),__webpack_require__(352),__webpack_require__(340)]);
 // CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/client-lifecycles-dispatcher.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -59642,7 +57697,7 @@ var nprogress_default = /*#__PURE__*/__webpack_require__.n(nprogress);
  */ // Memoize previously normalized pathnames.
 const pathnames={};function normalizeLocation(location){if(pathnames[location.pathname]){return{...location,pathname:pathnames[location.pathname]};}let pathname=location.pathname||'/';pathname=pathname.trim().replace(/\/index\.html$/,'');if(pathname===''){pathname='/';}pathnames[location.pathname]=pathname;return{...location,pathname};}/* harmony default export */ var client_normalizeLocation = (normalizeLocation);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/nprogress.css
-var client_nprogress = __webpack_require__(344);
+var client_nprogress = __webpack_require__(341);
 
 // CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/PendingNavigation.js
 /**
@@ -59786,7 +57841,7 @@ function doMinify(){return Object(htmlminifier["minify"])(renderedHtml,{removeCo
 try{return doMinify();}catch(e){if(e.message&&e.message.includes("Cannot read property 'replace' of undefined")){console.error(source_default.a.red('\nDocusaurus user: you probably have this known error due to using a monorepo/workspace.\nWe have a workaround for you, check https://github.com/facebook/docusaurus/issues/3515\n'));}throw e;}}
 
 /***/ }),
-/* 355 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
